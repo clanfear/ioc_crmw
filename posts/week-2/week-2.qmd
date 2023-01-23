@@ -1,5 +1,6 @@
 ---
 title: "Seminar 2: Quantitative Data Management"
+subtitle: "**Optional for Crim 1 students**"
 description: "Dealing with real world data"
 author: "Charles Lanfear"
 date: "2023-02-02"

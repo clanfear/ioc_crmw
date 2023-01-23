@@ -1,12 +1,13 @@
 ---
 title: "Seminar 4: Applied Regression Analysis"
+subtitle: "**Optional for Crim 1 students**"
 description: "Practicing linear regression"
 author: "Charles Lanfear"
 date: "2023-02-16"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/)
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/4_applied-regression-analysis/slides_applied-regression-analysis.html)
 
 Required reading:
 

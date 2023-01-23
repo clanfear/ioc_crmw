@@ -1,6 +1,6 @@
 ---
 title: "Seminar 1: Reproducible Research and Project Organization"
-subtitle: "Optional for Crim 1"
+subtitle: "**Optional for Crim 1 students**"
 description: "Good practices for scientific computing"
 author: "Charles Lanfear"
 date: "2023-01-26"
