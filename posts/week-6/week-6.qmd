@@ -1,0 +1,22 @@
+---
+title: "Seminar 6: Writing Up Quantitative Research"
+description: "Basic guidelines and practice for presenting quantitative methods and results"
+author: "Charles Lanfear"
+date: "2023-03-02"
+draft: false
+---
+
+Required reading:
+
+* Bryman, A. (2015) *Social Research Methods*, 5th ed., Oxford: Oxford University Press. Chapter 28.
+   * Access ebook via iDiscover
+
+Further reading:
+
+* Wentz, E. (2014)  *How to Design, Write, and Present a Successful Dissertation Proposal*, London: SAGE.
+ https://doi.org/10.4135/9781506374710
+
+* Fallon, M. (2016) *Writing up Quantitative Research in the Social and Behavioral Sciences*, Rotterdam : SensePublishers.
+   * Access ebook via iDiscover
+
+* American Psychological Association (2020) *Publication Manual of the American Psychological Association : The Official Guide to APA Style*, Seventh ed., Washington, DC : American Psychological Association

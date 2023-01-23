@@ -1,0 +1,23 @@
+---
+title: "Seminar 4: Applied Regression Analysis"
+description: "Practicing linear regression"
+author: "Charles Lanfear"
+date: "2023-02-16"
+draft: false
+---
+
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/)
+
+Required reading:
+
+* Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)
+
+* Altman, N. and Krzywinski (2016) Regression diagnostics. Nature Methods, 13:385-386 https://www.nature.com/articles/nmeth.3854
+
+Further reading:
+
+* Kassambara, A. (2018) "Linear regression assumptions and diagnostics in R: Essentials." http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
+   * A good very quick overview of basic R diagnostics for linear models
+
+* Gelman, A. and Hill, J. (2007) *Data Analysis using Regression and Multilevel/Hierarchical Models.* Cambridge University Press.
+   * The best general regression textbook, with detailed discussion of model diagnostics

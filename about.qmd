@@ -1,0 +1,31 @@
+---
+title: "Course Information"
+image: ioc_entrance_far.jpg
+about:
+  template: marquee
+title-block-banner: true
+---
+
+::: {.grid style="text-align: left"}
+
+::: {.g-col-4}
+Thursday 11:00-13:00
+<br>Law LG17
+:::
+
+::: {.g-col-4}
+&nbsp;
+:::
+
+::: {.g-col-4}
+Charles C. Lanfear<br> [cl948\@cam.ac.uk](cl948@cam.ac.uk "Email")<br>Office 3.9, drop-in times:<br>
+-- Monday, 13:00-14:00<br>
+-- Thursday, 14:00-15:00
+:::
+
+:::
+
+
+# Materials
+
+Under each lecture view you will find the required readings for each unit. You can return to the lecture view using the link in the upper left.

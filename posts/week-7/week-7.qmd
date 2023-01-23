@@ -1,0 +1,22 @@
+---
+title: "Seminar 7: Conducting Interviews"
+description: "Practicing qualitative research using interviews"
+author: "Arushi Garg"
+date: "2023-03-09"
+draft: false
+---
+
+Required reading:
+
+* Berg, B.L. (2009) *Qualitative Research Methods for the Social Sciences, 7th International edition*. London: Allyn & Bacon. Read chapter 4, ‘A dramaturgical look at interviewing’, pp.101-152.
+   * Access reading via Moodle
+
+Further reading:
+
+* Holstein, J.A. and Gubrium, J.F. (2003) ‘Active interviewing’, in *Postmodern Interviewing*, Thousand Oaks, CA: Sage Publications, pp. 67-80.
+   * Access ebook via iDiscover
+
+* Pawson, R. (1996) ‘Theorizing the interview’, *British Journal of Sociology*, 47(2): 295-314. https://doi.org/10.2307/591728
+
+* Sandberg, S. (2010) ‘What can ‘lies’ tell us about life? Notes towards a framework of narrative criminology’, *Journal of Criminal Justice Education*, 21(4): 447-465. https://doi.org/10.1080/10511253.2010.516564
+

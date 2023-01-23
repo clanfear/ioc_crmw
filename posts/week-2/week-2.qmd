@@ -1,0 +1,23 @@
+---
+title: "Seminar 2: Quantitative Data Management"
+description: "Dealing with real world data"
+author: "Charles Lanfear"
+date: "2023-02-02"
+draft: false
+---
+
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/2_quantitative-data-management/slides_quantitative-data-management.html)
+
+Required Readings:
+
+* Quartz. *The Quartz guide to bad data.* https://github.com/Quartz/bad-data-guide
+   * “An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.”
+   * Don’t read this thoroughly, but browse through it a bit!
+
+* Wickham, H. and Grolemund, G. (2022) *R for Data Science.* Sebastopol, CA: O’Reilly. https://r4ds.hadley.nz/ 
+
+* Robinson, D. *Tidy Tuesday live screencasts.* https://www.youtube.com/@safe4democracy/streams 
+   * Livestreamed data cleaning and analysis videos. See also https://www.youtube.com/@JuliaSilge 
+
+* Data Carpentry. (2022) *Social Science Curriculum.* https://datacarpentry.org/lessons/#social-science-curriculum 
+   * Recommended workshop rather than reading; look for upcoming workshops!

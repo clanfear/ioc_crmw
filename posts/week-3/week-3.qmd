@@ -1,0 +1,29 @@
+---
+title: "Seminar 3: Conducting Observations and Ethnographu"
+description: "Practicing observational methods"
+author: "Sarah Doxat-Pratt"
+date: "2023-02-09"
+draft: false
+---
+
+Lecture slides on Moodle
+
+Required reading:
+
+* Hammersley, M. and Atkinson, P. (1995) *Ethnography: Principles in practice*, 2nd ed., London: Routledge.
+   * Read chapter 4, ‘Field relations’, pp.80-123.
+   * Access reading via Moodle
+
+Further reading:
+
+* King, R.D. and Liebling, A. (2007) ‘Doing research in prisons’, in R.D. King and E. Wincup (eds) *Doing Research on Crime and Justice*, 2nd ed.,  Oxford: Oxford University Press, pp. 431-451.
+
+* Coffey, A. (2018) Doing Ethnography, Los Angeles, CA: Sage Publications.
+Access ebook via iDiscover
+
+* Ferrell, J. and Hamm, M.S. (1998) *Ethnography at the Edge: Crime, deviance, and field research*, Boston, MA: Northeastern University Press.
+Access ebook via iDiscover
+
+* Crewe, B. (2006) ‘Prison drug dealing and the ethnographic lens’, *The Howard Journal of Criminal Justice*, 45(4): 347-368.
+https://doi.org/10.1111/j.1468-2311.2006.00428.x
+

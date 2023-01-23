@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Criminological Research Methods Workshops",
+    "section": "",
+    "text": "Seminar 4:\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 16, 2022\n\n\nCharles Lanfear\n\n\n\n\n\n\n\n\nSeminar 1: Reproducible Research and Project Organization\n\n\nOptional for Crim 1\n\n\nGood practices for scientific computing\n\n\n\n\n\n\nJan 26, 2023\n\n\nCharles Lanfear\n\n\n\n\n\n\n\n\nSeminar 2: Quantitative Data Management\n\n\n\n\n\nDealing with real world data\n\n\n\n\n\n\nFeb 2, 2023\n\n\nCharles Lanfear\n\n\n\n\n\n\n\n\nSeminar 3: Conducting Observations and Ethnographu\n\n\n\n\n\nPracticing observational methods\n\n\n\n\n\n\nFeb 9, 2023\n\n\nCharles Lanfear\n\n\n\n\n\n\n\n\nSeminar 5\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 23, 2023\n\n\nCharles Lanfear\n\n\n\n\n\n\n\n\nSeminar 6\n\n\n\n\n\n\n\n\n\n\n\n\nMar 2, 2023\n\n\n\n\n\n\n\n\nSeminar 7: Interviews\n\n\n\n\n\nQualitative research using interviews\n\n\n\n\n\n\nMar 9, 2023\n\n\nArushi Garg\n\n\n\n\n\n\n\n\nSeminar 8\n\n\n\n\n\n\n\n\n\n\n\n\nMar 16, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Course Information",
+    "section": "",
+    "text": "Thursday 11:00-13:00 Law LG17\n\n\n \n\n\nCharles C. Lanfear cl948@cam.ac.ukOffice 3.9, drop-in times: – Monday, 13:00-14:00 – Thursday, 14:00-15:00\n\n\n\nMaterials\nUnder each lecture view you will find the required readings for each unit. You can return to the lecture view using the link in the upper left."
+  },
+  {
+    "objectID": "posts/week-1/week-1.html",
+    "href": "posts/week-1/week-1.html",
+    "title": "Seminar 1: Reproducible Research and Project Organization",
+    "section": "",
+    "text": "Lecture Slides\nRequired reading:\n\nWilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., and Teal, T.K. (2017) Good enough practices in scientific computing. PLoS Computational Biology, 13(6):e1005510 https://doi.org/10.1371/journal.pcbi.1005510\n\nFurther reading:\n\nBroman, K. Initial steps toward reproducible research. https://kbroman.org/steps2rr/\nHealy, K. (2019) The plain person’s guide to plain text social science. https://plain-text.co/\nPridemore, W.A., Makel, M.C., and Plucker, J.A. (2018) Replication in criminology and the social sciences. Annual Review of Criminology, 1:19-38 https://doi.org/10.1146/annurev-criminol-032317-091849\nRStudio. Introduction to R Markdown. https://rmarkdown.rstudio.com/lesson-1.html\nXie, Y., Allaire, J.J., and Grolemund, G. (2022) R Markdown the Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/\nBryan, J. and Hester, J. What they forgot to teach you about R. https://rstats.wtf/"
+  },
+  {
+    "objectID": "posts/week-2/week-2.html",
+    "href": "posts/week-2/week-2.html",
+    "title": "Seminar 2: Quantitative Data Management",
+    "section": "",
+    "text": "Lecture Slides\nRequired Readings:\n\nQuartz. The Quartz guide to bad data. https://github.com/Quartz/bad-data-guide\n\n“An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.”\nDon’t read this thoroughly, but browse through it a bit!\n\nWickham, H. and Grolemund, G. (2022) R for Data Science. Sebastopol, CA: O’Reilly. https://r4ds.hadley.nz/\nRobinson, D. Tidy Tuesday live screencasts. https://www.youtube.com/@safe4democracy/streams\n\nLivestreamed data cleaning and analysis videos. See also https://www.youtube.com/@JuliaSilge\n\nData Carpentry. (2022) Social Science Curriculum. https://datacarpentry.org/lessons/#social-science-curriculum\n\nRecommended workshop rather than reading; look for upcoming workshops!"
+  },
+  {
+    "objectID": "posts/week-3/week-3.html",
+    "href": "posts/week-3/week-3.html",
+    "title": "Seminar 3: Conducting Observations and Ethnographu",
+    "section": "",
+    "text": "Lecture slides on Moodle\nReading TBA"
+  },
+  {
+    "objectID": "posts/week-4/week-4.html",
+    "href": "posts/week-4/week-4.html",
+    "title": "Seminar 4:",
+    "section": "",
+    "text": "Lecture Slides\nReading:"
+  },
+  {
+    "objectID": "posts/week-5/week-5.html",
+    "href": "posts/week-5/week-5.html",
+    "title": "Seminar 5",
+    "section": "",
+    "text": "Lecture Slides\nReading:"
+  },
+  {
+    "objectID": "posts/week-6/week-6.html",
+    "href": "posts/week-6/week-6.html",
+    "title": "Seminar 6: Ethnographic and Observational Research",
+    "section": "",
+    "text": "Haggerty et al (2021) ‘Introduction: The promises and challenges of crime ethnographies’ in S.M. Bucerius et al (eds), The Oxford Handbook of Ethnographies of Crime and Criminal Justice, Oxford: OUP, Chapter 1. pp. 1-17\nKrishnan, S. (2015) ‘Dispatches from a ‘rogue’ ethnographer: Exploring homophobia and queer visibility in the field’, Journal of the Anthropological Society of Oxford Online, 7(1): 64–79\n\nFurther reading:\n\nCrewe, B. (2006) ‘Prison drug dealing and the ethnographic lens’, Howard Journal of Criminal Justice, 45(4): 347-368. http://dx.doi.org/10.1111/j.1468-2311.2006.00428.x\nHammersley, M. (1998) ‘The nature of ethnography’, in Reading Ethnographic Research: A critical guide, 2nd ed., London, Longman, pp. 1-20, or the equivalent chapter in the 1990 edition. (Download from Moodle)\nJauregui, B. (2021) ‘Police Labor and Exploitation: Case Study of North India’ in S.M. Bucerius et al (eds), The Oxford Handbook of Ethnographies of Crime and Criminal Justice, Oxford: OUP, Chapter 23. pp. 488-511.\nMaher, L. (1997) ‘Appendix: On reflexivity, reciprocity, and ethnographic research’, in Sexed Work: Gender, race and resistance in a Brooklyn drug market, Oxford: Clarendon.\nWakeman, S. (2014) ‘Fieldwork, biography and emotion: Doing criminological autoethnography’, British Journal of Criminology, 54(5): 705-721.\nWillis, R. (2019) ‘Observations online: Finding the ethical boundaries of Facebook research’, Research Ethics, 15(1): 1-17.\nFor a sophisticated and combative debate on ethnographic practice, see Wacquant’s (2002) ‘Scrutinizing the street: poverty, morality, and the pitfalls of urban ethnography’, and the responses by Duneier, Anderson and Newman, in the American Journal of Sociology, 107(6): 1468-1532, 1533- 1550, 1551–1576, and 1577–1599.https://www.journals.uchicago.edu/toc/ajs/2002/107/6"
+  },
+  {
+    "objectID": "posts/week-7/week-7.html",
+    "href": "posts/week-7/week-7.html",
+    "title": "Seminar 7: Interviews",
+    "section": "",
+    "text": "Yeo, A. et al (2014). ‘In-depth interviews’ in J. Ritchie et al. (eds) Qualitative research practice: A guide for social science students and researchers, 2nd ed., London: Sage, Chapter 7.\n\nFurther reading:\n\nBird, C. M. (2005). ‘How I stopped dreading and learned to love transcription’, Qualitative Inquiry, 11(2): 226 - 248.\nCopes, H. et al. (2018). ‘Photo-elicitation interviews with vulnerable populations: Practical and ethical considerations’ Deviant Behavior 39(4): 475-494.\nOakley, A. (1982). ‘Interviewing women: A contradiction in terms?’ in H. Roberts, (ed), Doing Feminist Research, London: Routledge and Kegan Paul, Chapter 2.\nRitchie, J. et al (2014). ‘Designing and selecting samples’ and in J. Ritchie et al. (eds) Qualitative research practice: A guide for social science students and researchers, 2nd ed., London: Sage, Chapters 5 and 8.\nUllrich, L. (2021). ‘Digital epistemologies in socially distanced times: Exploring knowledge production through qualitative WhatsApp surveys’ (Centre for Criminological Research, University of Sheffield, 13 October 2021) available at https://www.sheffield.ac.uk/ccr/events/sights-sounds-and-art/sounds-criminal-justice accessed 7 November 2022."
+  },
+  {
+    "objectID": "posts/week-8/week-8.html",
+    "href": "posts/week-8/week-8.html",
+    "title": "Seminar 8",
+    "section": "",
+    "text": "Required reading:"
+  }
+]

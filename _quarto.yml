@@ -1,0 +1,19 @@
+project:
+  type: website
+  post-render:
+    - create_redirect.R
+
+website:
+  title: "Criminological Research Methods Workshops"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/clanfear/ioc_crmw
+format:
+  html:
+    theme: pulse
+    css: styles.css
+
+
+

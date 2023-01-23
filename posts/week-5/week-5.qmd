@@ -1,0 +1,37 @@
+---
+title: "Seminar 5: Qualitative Coding and Analysis"
+description: "Practice in qualitative data analysis"
+author: "Daria Przybylska"
+date: "2023-02-23"
+draft: false
+---
+
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/)
+
+Required reading:
+
+* Coffey, A. and Atkinson, P. (1996) *Making Sense of Qualitative Data: Complementary research strategies*, Thousand Oaks, CA: Sage. Read chapter 2.
+   * Access reading via Moodle
+
+* Robson, C. (2016) *Real World Research: A resource for users of social research methods in applied settings*, 4th ed., Chichester: Wiley. Read chapter 18 'The analysis and interpretation of qualitative data', pp. 459-486.
+   * Access reading via Moodle
+
+* Braun, V. and Clarke, V. (2021) 'One size fits all? What counts as quality practice in (reflexive) thematic analysis?', *Qualitative Research in Psychology*, 18:3, 328-352. https://doi.org/10.1080/14780887.2020.1769238
+
+Further reading:
+
+* Miles, B. and Huberman, A.M. (1994) *Qualitative Data Analysis: An expanded sourcebook*, 2nd ed., London: Sage. Read chapter 10, ‘Making good sense: drawing and verifying conclusions’, pp. 245-287.
+
+* Strauss, A.L. and Corbin, J. (1998) *Basics of Qualitative Research: Techniques and procedures for developing grounded theory*, 2nd ed., Thousand Oaks, CA: Sage.
+   * Access 3rd edition ebook via iDiscover
+
+* Becker, H.S. (1998) *Tricks of the Trade: How to think about your research while you’re doing it*, Chicago, IL: Chicago University Press.
+Ritchie, J., Lewis, J., McNaughton Nicholls, C. and Ormston, R. (2014) Qualitative Research Practice: A guide for social science students and researchers, 2nd ed., London: Sage.
+
+* Charmaz, K. (2014) *Constructing Grounded Theory: A practical guide through qualitative analysis*, London: Sage Publications.
+
+* Silverman, D. (2010) *Doing Qualitative Research: A practical handbook*, London: Sage. Read part 3.
+
+* Weaver, B. (2016) *Offending and Desistance*, London: Routledge.  Read Annex, Research Methods.
+   * Access ebook via iDiscover
+

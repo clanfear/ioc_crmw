@@ -1,0 +1,28 @@
+---
+title: "Seminar 1: Reproducible Research and Project Organization"
+subtitle: "Optional for Crim 1"
+description: "Good practices for scientific computing"
+author: "Charles Lanfear"
+date: "2023-01-26"
+draft: false
+---
+
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/1_reproducible-research/slides_reproducible-research.html)
+
+Required reading:
+
+* Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., and Teal, T.K. (2017) Good enough practices in scientific computing. *PLoS Computational Biology*, 13(6):e1005510 [https://doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+
+Further reading:
+
+* Broman, K. Initial steps toward reproducible research. https://kbroman.org/steps2rr/ 
+
+* Healy, K. (2019) *The plain person’s guide to plain text social science.* https://plain-text.co/
+
+* Pridemore, W.A., Makel, M.C., and Plucker, J.A. (2018) Replication in criminology and the social sciences. *Annual Review of Criminology*, 1:19-38 https://doi.org/10.1146/annurev-criminol-032317-091849
+
+* RStudio. Introduction to R Markdown. https://rmarkdown.rstudio.com/lesson-1.html
+
+* Xie, Y., Allaire, J.J., and Grolemund, G. (2022) *R Markdown the Definitive Guide.* CRC Press. https://bookdown.org/yihui/rmarkdown/
+
+* Bryan, J. and Hester, J. *What they forgot to teach you about R.* https://rstats.wtf/
