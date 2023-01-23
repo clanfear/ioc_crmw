@@ -8,4 +8,5 @@ listing:
   categories: false
 page-layout: full
 title-block-banner: true
+theme: pulse
 ---
