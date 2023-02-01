@@ -9,11 +9,13 @@ draft: false
 
 [Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/2_quantitative-data-management/slides_quantitative-data-management.html)
 
-Required Readings:
+Required readings:
 
 * Quartz. *The Quartz guide to bad data.* https://github.com/Quartz/bad-data-guide
    * “An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.”
    * Don’t read this thoroughly, but browse through it a bit!
+
+Further reading and resources:
 
 * Wickham, H. and Grolemund, G. (2022) *R for Data Science.* Sebastopol, CA: O’Reilly. https://r4ds.hadley.nz/ 
 

@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Charles Lanfear">
+<meta name="author" content="Sarah Doxat-Pratt">
 <meta name="dcterms.date" content="2023-02-09">
 <meta name="description" content="Practicing observational methods">
 
-<title>Criminological Research Methods Workshops - Seminar 3: Conducting Observations and Ethnographu</title>
+<title>Criminological Research Methods Workshops - Seminar 3: Conducting Observations and Ethnography</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,13 +83,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
- <span class="menu-text">Course Information</span></a>
+    <a class="nav-link" href="../../about.html">Course Information</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/clanfear/ioc_crmw"><i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ </a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -101,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Seminar 3: Conducting Observations and Ethnographu</h1>
+      <h1 class="title">Seminar 3: Conducting Observations and Ethnography</h1>
                   <div>
         <div class="description">
           Practicing observational methods
@@ -116,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Charles Lanfear </p>
+               <p>Sarah Doxat-Pratt </p>
             </div>
     </div>
       
@@ -126,7 +125,6 @@ ul.task-list li input[type="checkbox"] {
         <p class="date">February 9, 2023</p>
       </div>
     </div>
-    
       
     </div>
     
@@ -142,7 +140,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Lecture slides on Moodle</p>
-<p>Reading TBA</p>
+<p>Required reading:</p>
+<ul>
+<li>Hammersley, M. and Atkinson, P. (1995) <em>Ethnography: Principles in practice</em>, 2nd ed., London: Routledge.
+<ul>
+<li>Read chapter 4, ‘Field relations’, pp.80-123.</li>
+<li>Access reading via Moodle</li>
+</ul></li>
+</ul>
+<p>Further reading:</p>
+<ul>
+<li><p>King, R.D. and Liebling, A. (2007) ‘Doing research in prisons’, in R.D. King and E. Wincup (eds) <em>Doing Research on Crime and Justice</em>, 2nd ed., Oxford: Oxford University Press, pp.&nbsp;431-451.</p></li>
+<li><p>Coffey, A. (2018) Doing Ethnography, Los Angeles, CA: Sage Publications. Access ebook via iDiscover</p></li>
+<li><p>Ferrell, J. and Hamm, M.S. (1998) <em>Ethnography at the Edge: Crime, deviance, and field research</em>, Boston, MA: Northeastern University Press. Access ebook via iDiscover</p></li>
+<li><p>Crewe, B. (2006) ‘Prison drug dealing and the ethnographic lens’, <em>The Howard Journal of Criminal Justice</em>, 45(4): 347-368. https://doi.org/10.1111/j.1468-2311.2006.00428.x</p></li>
+</ul>
 
 
 
@@ -188,24 +200,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -241,42 +236,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

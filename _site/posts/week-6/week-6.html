@@ -2,14 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
+<meta name="author" content="Charles Lanfear">
 <meta name="dcterms.date" content="2023-03-02">
+<meta name="description" content="Basic guidelines and practice for presenting quantitative methods and results">
 
-<title>Criminological Research Methods Workshops - Seminar 6</title>
+<title>Criminological Research Methods Workshops - Seminar 6: Writing Up Quantitative Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,13 +83,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
- <span class="menu-text">Course Information</span></a>
+    <a class="nav-link" href="../../about.html">Course Information</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/clanfear/ioc_crmw"><i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ </a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -100,13 +100,24 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Seminar 6</h1>
-                      </div>
+      <h1 class="title">Seminar 6: Writing Up Quantitative Research</h1>
+                  <div>
+        <div class="description">
+          Basic guidelines and practice for presenting quantitative methods and results
+        </div>
+      </div>
+                </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Charles Lanfear </p>
+            </div>
+    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
@@ -114,7 +125,6 @@ ul.task-list li input[type="checkbox"] {
         <p class="date">March 2, 2023</p>
       </div>
     </div>
-    
       
     </div>
     
@@ -129,6 +139,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>Required reading:</p>
+<ul>
+<li>Bryman, A. (2015) <em>Social Research Methods</em>, 5th ed., Oxford: Oxford University Press. Chapter 28.
+<ul>
+<li>Access ebook via iDiscover</li>
+</ul></li>
+</ul>
+<p>Further reading:</p>
+<ul>
+<li><p>Wentz, E. (2014) <em>How to Design, Write, and Present a Successful Dissertation Proposal</em>, London: SAGE. https://doi.org/10.4135/9781506374710</p></li>
+<li><p>Fallon, M. (2016) <em>Writing up Quantitative Research in the Social and Behavioral Sciences</em>, Rotterdam : SensePublishers.</p>
+<ul>
+<li>Access ebook via iDiscover</li>
+</ul></li>
+<li><p>American Psychological Association (2020) <em>Publication Manual of the American Psychological Association : The Official Guide to APA Style</em>, Seventh ed., Washington, DC : American Psychological Association</p></li>
+</ul>
 
 
 
@@ -174,24 +200,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -227,42 +236,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

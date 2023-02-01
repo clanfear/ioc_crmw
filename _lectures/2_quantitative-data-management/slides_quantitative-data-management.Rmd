@@ -1,0 +1,139 @@
+---
+title: "Quantitative Data Management"
+subtitle: "CRMW Workshop 2"
+author: "Charles Lanfear"
+date: "2 Feb 2023<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+output:
+  xaringan::moon_reader:
+    css: "../assets/cam-css.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: tomorrow-night-bright
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "../assets/cam_macros.js"
+      titleSlideClass: ["center","top"]
+---
+
+```{r setup, purl=FALSE}
+#| include: false
+options(width = 68)
+set.seed(7)
+knitr::opts_chunk$set(eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE, dev = "svg", fig.height = 4)
+```
+
+
+# Today
+
+A research question: 
+
+.text-center[
+*How are different indices of deprivation related to different types of crime in London?*
+]
+
+--
+
+Today we will:
+
+* Create a basic project
+* Load data we will need
+* Prepare the data for analysis
+
+--
+
+Next time (barring strike) we will:
+
+* Visualize our data
+* Model our outcomes
+* Diagnose and (try to) address problems
+
+
+---
+# Setup
+
+1. Open RStudio
+
+--
+
+2. In the project menu (top right) select *New Project...*
+
+--
+
+3. Select *New Directory*
+   * Place it wherever you want
+
+--
+
+4. Go to *File > New File > R Script*
+   * Immediately save (*Ctrl-S* or *⌘-S*) the blank file
+   * In the save menu, create a new `code` folder and save there
+
+--
+
+5. Using the files tab of the bottom-right panel
+   * Make sure you are in your project's main directory
+   * Create a new folder called `data`
+
+--
+
+6. Browse to this lecture on the course website
+   * [clanfear.github.io/ioc_crmw/]
+
+
+---
+# Data Today
+
+Save these to the `data` directory in your project
+
+* London Crime data - 2022
+
+   + [Direct download link (.zip)](https://clanfear.github.io/ioc_crmw/_data/dpu-crime-met-2022.zip)
+   + Source: [`data.police.uk`](https://data.police.uk/data/)
+
+
+* LSOA Indices of Deprivation - 2019
+
+   + [Direct download link (.csv)](https://clanfear.github.io/ioc_crmw/_data/imd2019lsoa.csv)
+   + Source: [`opendatacommunities.org`](https://opendatacommunities.org/resource?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd2019%2Findices)
+
+* LSOA Population Density - 2014
+
+   + [Direct download link (.xlsx)](https://clanfear.github.io/ioc_crmw/land-area-population-density-lsoa11-msoa11.xlsx)
+   + Source: [data.london.gov.uk](https://data.london.gov.uk/dataset/super-output-area-population-lsoa-msoa-london)
+
+---
+
+# Get to Work!
+
+Our goal:
+
+* LSOA-unit observations
+* Columns for:
+   * Each index of deprivation
+   * Population density
+   * Violence and sexual offences
+   * Robbery
+   * Burglary
+
+--
+
+Let's work on this together!
+
+
+---
+
+# Wrap-Up
+
+### Strike Dates
+
+```{r, echo = FALSE}
+tibble::tribble(
+  ~Unit,           ~ Lecturer,           ~ Strike, ~Reschedule,
+  "Ethnography",   "Dr S. Doxat-Pratt" , "9 Feb",  "8 Feb (Wed)",
+  "Regression",    "Chuck" ,             "16 Feb", "None",
+  "Qual Coding",   "D. Przybylska" ,     "23 Feb", "24 Feb (Fri)",
+  "Quant Writing", "Chuck" ,             "2 Mar",  "None",
+  "Qual Writing",  "A. Rennie",          "16 Mar", "17 Mar (Fri)"
+        ) |> knitr::kable()
+```
+

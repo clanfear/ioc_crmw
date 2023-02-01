@@ -2,14 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
+<meta name="author" content="Ailie Rennie">
 <meta name="dcterms.date" content="2023-03-16">
+<meta name="description" content="Developing skills in presenting qualitative research">
 
-<title>Criminological Research Methods Workshops - Seminar 8</title>
+<title>Criminological Research Methods Workshops - Seminar 8: Writing Up Qualitative Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,13 +83,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
- <span class="menu-text">Course Information</span></a>
+    <a class="nav-link" href="../../about.html">Course Information</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/clanfear/ioc_crmw"><i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+ </a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -100,13 +100,24 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Seminar 8</h1>
-                      </div>
+      <h1 class="title">Seminar 8: Writing Up Qualitative Research</h1>
+                  <div>
+        <div class="description">
+          Developing skills in presenting qualitative research
+        </div>
+      </div>
+                </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ailie Rennie </p>
+            </div>
+    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
@@ -114,7 +125,6 @@ ul.task-list li input[type="checkbox"] {
         <p class="date">March 16, 2023</p>
       </div>
     </div>
-    
       
     </div>
     
@@ -130,6 +140,31 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Required reading:</p>
+<ul>
+<li>Wolcott, H.F. (2009) <em>Writing Up Qualitative Research</em>, 3rd ed., Los Angeles, CA: Sage.
+<ul>
+<li>Read chapter 2, ‘Get Going’, pp.&nbsp;9-44. Other chapters are also useful.</li>
+<li>Access ebook via iDiscover</li>
+</ul></li>
+<li>White, C., Woodfield, K., Ritchie, J. and Ormston, R. (2014) ’Writing up qualitative research’ in Ritchie, J., Lewis, J., McNaughton Nicholls, C. and Ormston, R. <em>Qualitative Research Practice: a guide for Social Science Students and Researchers</em>. London: Sage Publications.
+<ul>
+<li>Access reading via Moodle</li>
+</ul></li>
+<li>Alvermann, D. E., O’Brien, D. G., and Dillon, D. R. (1996) ‘On writing qualitative research’, <em>Reading Research Quarterly</em>, 31(1), 114-120.
+<ul>
+<li>Access via JSTOR</li>
+</ul></li>
+</ul>
+<p>Further reading:</p>
+<ul>
+<li><p>Coffey, A. and Atkinson, P. (1996) <em>Making Sense of Qualitative Data: Complementary research strategies</em>, Thousand Oaks, CA: Sage. Read chapter 5, ‘Writing and representation’, pp.&nbsp;108-138.</p></li>
+<li><p>Holliday, A, (2016) <em>Doing and Writing Qualitative Research</em>, 3rd edition, London: Sage.</p></li>
+<li><p>Krause, M. (2016) ‘The meanings of theorizing’, <em>British Journal of Sociology</em>, 67(1), 23-29. https://doi.org/10.1111/1468-4446.12187_4</p></li>
+<li><p>Mills, C. Wright (1959) <em>The Sociological Imagination</em>, Oxford: Oxford University Press</p>
+<ul>
+<li>Access ebook via iDiscover</li>
+</ul></li>
+</ul>
 
 
 
@@ -175,24 +210,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -228,42 +246,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>
