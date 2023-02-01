@@ -9,6 +9,12 @@ draft: false
 
 [Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/2_quantitative-data-management/slides_quantitative-data-management.html)
 
+Data for lab:
+
+* [London Crime data (.zip)](https://clanfear.github.io/ioc_crmw/_data/dpu-crime-met-2022.zip)
+* [LSOA Indices of Deprivation (.csv)](https://clanfear.github.io/ioc_crmw/_data/imd2019lsoa.csv)
+* [LSOA Population Density (.xlsx)](https://clanfear.github.io/ioc_crmw/_data/land-area-population-density-lsoa11-msoa11.xlsx)
+
 Required readings:
 
 * Quartz. *The Quartz guide to bad data.* https://github.com/Quartz/bad-data-guide

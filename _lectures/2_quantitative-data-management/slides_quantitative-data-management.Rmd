@@ -98,7 +98,7 @@ Save these to the `data` directory in your project
 
 * LSOA Population Density - 2014
 
-   + [Direct download link (.xlsx)](https://clanfear.github.io/ioc_crmw/land-area-population-density-lsoa11-msoa11.xlsx)
+   + [Direct download link (.xlsx)](https://clanfear.github.io/ioc_crmw/_data/land-area-population-density-lsoa11-msoa11.xlsx)
    + Source: [data.london.gov.uk](https://data.london.gov.uk/dataset/super-output-area-population-lsoa-msoa-london)
 
 ---
