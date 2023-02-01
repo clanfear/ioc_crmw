@@ -35,25 +35,35 @@ class: center, top, title-slide
 A research question: 
 
 .text-center[
-*How are different indices of deprivation related to different types of crime in London?*
+*Controlling for **density**, how is **deprivation** related to **crime** in London?*
 ]
+
+&lt;br&gt;
+
+![](slides_quantitative-data-management_files/figure-html/mod-dag-1.svg)&lt;!-- --&gt;
+
+&lt;br&gt;
 
 --
 
+.pull-left[
 Today we will:
 
 * Create a basic project
 * Load data we will need
 * Prepare the data for analysis
 
+]
+
 --
 
-Next time (barring strike) we will:
+.pull-right[
+Next time we will:
 
 * Visualize our data
 * Model our outcomes
 * Diagnose and (try to) address problems
-
+]
 
 ---
 # Setup
@@ -71,59 +81,91 @@ Next time (barring strike) we will:
 
 --
 
-4. Go to *File &gt; New File &gt; R Script*
-   * Immediately save (*Ctrl-S* or *⌘-S*) the blank file
-   * In the save menu, create a new `code` folder and save there
+4. Using the files tab of the bottom-right panel
+   * Make sure you are in your project's main directory
+   * Create a new `code` folder
+   * Create a new folder called `data`
+   * Create a folders called `raw` and `derived` in `data`
 
 --
 
-5. Using the files tab of the bottom-right panel
-   * Make sure you are in your project's main directory
-   * Create a new folder called `data`
+5. Browse to this lecture on the course website
+   * [clanfear.github.io/ioc_crmw/](clanfear.github.io/ioc_crmw/)
+
 
 ---
-# Data Today
+# The Data
 
 Save these to the `data` directory in your project
 
 * London Crime data - 2022
 
-   + [Direct download link (.zip)](https://clanfear.github.io/ioc_crmw/_data/dpu-crime-met-2022.zip)
+   + Crime outcomes
+   + [Direct download link (.zip)](https://clanfear.github.io/ioc_crmw/_data/dpu-crime-met-2022.zip) — **multiple files!**
    + Source: [`data.police.uk`](https://data.police.uk/data/)
 
 
 * LSOA Indices of Deprivation - 2019
 
+   + Deprivation predictors
    + [Direct download link (.csv)](https://clanfear.github.io/ioc_crmw/_data/imd2019lsoa.csv)
    + Source: [`opendatacommunities.org`](https://opendatacommunities.org/resource?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd2019%2Findices)
 
 * LSOA Population Density - 2014
 
-   + [Direct download link (.xlsx)](https://clanfear.github.io/ioc_crmw/land-area-population-density-lsoa11-msoa11.xlsx)
+   + Density control
+   + [Direct download link (.xlsx)](https://clanfear.github.io/ioc_crmw/_data/land-area-population-density-lsoa11-msoa11.xlsx) — a multi-sheet **Excel file!**
    + Source: [data.london.gov.uk](https://data.london.gov.uk/dataset/super-output-area-population-lsoa-msoa-london)
 
 ---
 
 # Get to Work!
 
-Our goal:
+We want to produce **analysis-ready data**:
 
-* LSOA-unit observations
-* Columns for:
-   * Each index of deprivation
-   * Population density
-   * Violence and sexual offences
-   * Robbery
-   * Burglary
+* Cross-sectional (one row per unit)
+* Columns for predictors
+* Columns for outcomes
 
 --
 
-Let's work on this together!
+The process:
 
+* **Load and clean** up each file with *separate scripts*
+* **Save derived data** as *separate files*
+* **Join together** in another script and save the analysis data
+
+--
+
+We'll have *at least* **four scripts**!
+
+* We'll start by making `1_process-metro.R`
+   * Numbers make **run order** clear
+
+--
+
+.text-center[
+*Let's work on this together!*
+]
 
 ---
+class: inverse
+
+# Cleaning Data
+
+&lt;br&gt;
+
+![](img/owl.jpg)
+
+---
+class: inverse
 
 # Wrap-Up
+
+### Practice!
+
+* Data management is the hardest and most time consuming part of any project
+* You get good with **practice** and **intentional improvement**
 
 ### Strike Dates
 
