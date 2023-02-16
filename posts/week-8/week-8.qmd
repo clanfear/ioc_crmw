@@ -2,7 +2,7 @@
 title: "Seminar 8: Writing Up Qualitative Research"
 description: "Developing skills in presenting qualitative research"
 author: "Ailie Rennie"
-date: "2023-03-16"
+date: "2023-03-17"
 draft: false
 ---
 

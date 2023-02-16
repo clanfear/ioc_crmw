@@ -2,7 +2,7 @@
 title: "Seminar 3: Conducting Observations and Ethnography"
 description: "Practicing observational methods"
 author: "Sarah Doxat-Pratt"
-date: "2023-02-09"
+date: "2023-02-08"
 draft: false
 ---
 

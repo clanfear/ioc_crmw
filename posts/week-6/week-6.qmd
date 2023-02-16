@@ -1,6 +1,6 @@
 ---
 title: "Seminar 6: Writing Up Quantitative Research"
-description: "Basic guidelines and practice for presenting quantitative methods and results"
+description: "(Cancelled due to strike)"
 author: "Charles Lanfear"
 date: "2023-03-02"
 draft: false
