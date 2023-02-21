@@ -2,7 +2,8 @@ render_lecture <- function(x, purl = FALSE){
   input_paths <-  sort(list.files("./_lectures/", 
                                   pattern = "^slides.*Rmd$", 
                                   recursive = TRUE, 
-                                  full.names = TRUE))[x]
+                                  full.names = TRUE)) |>
+    stringr::str_subset(paste0(x, "_"))
   r_out_paths <-  stringr::str_remove(input_paths, "md$")
   unlink(r_out_paths, recursive = FALSE)
   if(purl){
@@ -11,4 +12,4 @@ render_lecture <- function(x, purl = FALSE){
   }
   purrr::walk(.x = input_paths, ~rmarkdown::render(.x, encoding = "UTF-8"))
 }
-render_lecture(2)
+render_lecture(6)

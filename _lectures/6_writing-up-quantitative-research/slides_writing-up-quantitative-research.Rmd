@@ -1,0 +1,135 @@
+---
+title: "Writing Up Quantitative Research"
+subtitle: "CRMW Lecture 6"
+author: "Charles Lanfear"
+date: "2 Mar 2023<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+output:
+  xaringan::moon_reader:
+    css: "../assets/cam-css.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: tomorrow-night-bright
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "../assets/cam_macros.js"
+      titleSlideClass: ["center","top"]
+---
+
+```{r setup, purl=FALSE}
+#| include: false
+options(width = 68)
+set.seed(7)
+knitr::opts_chunk$set(eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE, dev = "svg", fig.height = 4)
+```
+
+
+---
+
+# Outline
+
+### Writing
+
+### Tables
+
+### Charts
+
+---
+
+# Writing
+
+---
+
+## APA
+
+.pull-left[
+### Grammar
+
+Past / present perfect tense:
+
+* Literature review
+* Methods and results
+* "Sampson et al. (1997) observed..."
+* "The treatment decreased..."
+
+Present tense:
+
+* Discussion
+* Conclusions
+* "Our results indicate..."
+* "This study is limited in that..."
+
+]
+
+.pull-right[
+### Numbers
+
+Use words for:
+
+* Numbers from 0 to 9
+* Common fractions and phrases (e.g., one tenth)
+* The start of a sentence
+
+Other rules:
+
+* Round to 2 or 3 places
+* Do not report statistics in both text and tables or figures
+* [See the APA style guide](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf)
+]
+
+---
+
+## General Style
+
+.pull-left[
+* Clarity comes first
+
+* **Read** good books on writing &rarr;
+
+* **Read** and emulate good writers
+
+* **Read** your work out loud
+
+   * *Good writing seems natural*
+
+* Have others read your work
+
+   * *When someone says something is confusing they are always right*
+]
+
+.pull-right[
+![](img/books_cropped.jpg)
+]
+
+---
+
+# Tables
+
+Tables should tand alone
+
+---
+
+## What do we table
+
+---
+
+# Plots
+
+Figures should stand alone
+
+---
+
+## What do we plot
+
+
+
+---
+
+
+
+---
+
+# Wrap-Up
+
+### Moving Forward
+
+
