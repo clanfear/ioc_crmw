@@ -23,8 +23,6 @@ knitr::opts_chunk$set(eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE, dev = 
 ```
 
 
----
-
 # Outline
 
 ### Writing
@@ -41,35 +39,30 @@ class: inverse
 
 ---
 
-# Structure
+# Matsueda (2019)
 
-Conventional Structure:
+.pull-left-70[
+* Empirical writing has a common structure
+   * Efficient for communication
+   * Hourglass shape
+* Mimic others:
+   * Articles in prominent outlets
+   * Good writers
+* Highlight your contributions
+* Literature reviews are important
+   * Position your work
+   * Argument and conversation, not summary
+]
 
-* Abstract
-* Introduction
-* Literature Review
-* Methods
-* Results
-* Discussion
-* Conclusion
-
----
-
-# Introduction
-
-* Research question or problem
-* Indicate contribution
-* Indicate content of sections
-
-.text-center[
-*After reading the introduction, the reader should know exactly where the paper is going*
+.pull-right-30[
+![:width 80%](img/ross.jpg)
 ]
 
 
 ---
-## APA Grammar
+# APA: Grammar
 
-.pull-left[
+.pull-left-60[
 
 
 Past / present perfect tense:
@@ -87,14 +80,14 @@ Present tense:
 * "This study is limited in that..."
 
 ]
-.pull-right[
+.pull-right-40[
 ![](img/apa.jpg)
 ]
 
 ---
-## APA Numbers
+# APA: Numbers
 
-.pull-left[
+.pull-left-60[
 Use words for:
 
 * Numbers from 0 to 9
@@ -107,13 +100,13 @@ Other rules:
 * Do not report statistics in both text and tables or figures
 * [See the APA style guide](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf)
 ]
-.pull-right[
+.pull-right-40[
 ![](img/apa.jpg)
 ]
 
 ---
 
-## General Style
+# General Tips
 
 .pull-left[
 * Clarity comes first
@@ -142,18 +135,23 @@ class: inverse
 
 ---
 
+.pull-left[
+
 From reading:
 
 * Completeness
 * Clarity
 * Credibility
+]
 
 From reality:
 
-What these mean is context-specific
+Context-specific
 
 Complete in JQC is too much for Criminology
 Complete in Criminology is too much for a report to stakeholders
+
+
 
 ---
 class: inverse
@@ -162,20 +160,53 @@ class: inverse
 
 ---
 
-[FLOW CHART]
+# Where numbers go
 
-What do we text
+.container[
+.column[
+
+.text-center[
+### Text
+]
 
 * Key evidence
-* Isolated important values
+   + Main estimates
+   + Big "hooks"
+* Important standalone values
+   + Sample size
+   + Response rate
+* **Nothing unimportant**
+]
+.column[
 
-What do we table
+.text-center[
+### Table
+]
 
 * Relatively few numbers
-* Need precise values to look up
-* Many different quantities for few cases
+   + Cross-tabs
+* Precise values for look up
+   + Descriptives
+   + Complete model estimates
+]
+.column[
 
-What do we plot
+.text-center[
+### Figure
+]
+
+* **Everything else**
+* Especially:
+   + Comparisons
+   + Multivariable relationships
+   + Anything hard to explain verbally
+]
+]
+
+
+
+
+
 
 ---
 # Text
@@ -190,13 +221,7 @@ Do not describe everything
 
 Tables should stand alone
 
----
-
-
-
----
-
-## Style
+Style
 
 * Few lines
 * Few digits

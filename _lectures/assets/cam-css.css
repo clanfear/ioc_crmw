@@ -157,6 +157,19 @@ a, a > code {
   padding-top: 1em;
 }
 
+/* Three-column layout */
+.column {
+  flex: 33.33%;
+  height: 350px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #cccccc;
+  text-align: left;
+}
+.container {
+   display: flex;
+}	
+
 img, video, iframe {
   max-width: 100%;
 }
