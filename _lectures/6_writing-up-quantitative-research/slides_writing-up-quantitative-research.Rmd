@@ -35,14 +35,42 @@ knitr::opts_chunk$set(eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE, dev = 
 
 ---
 
-# Writing
+class: inverse
+
+# Writing in General
 
 ---
 
-## APA
+# Structure
+
+Conventional Structure:
+
+* Abstract
+* Introduction
+* Literature Review
+* Methods
+* Results
+* Discussion
+* Conclusion
+
+---
+
+# Introduction
+
+* Research question or problem
+* Indicate contribution
+* Indicate content of sections
+
+.text-center[
+*After reading the introduction, the reader should know exactly where the paper is going*
+]
+
+
+---
+## APA Grammar
 
 .pull-left[
-### Grammar
+
 
 Past / present perfect tense:
 
@@ -59,10 +87,14 @@ Present tense:
 * "This study is limited in that..."
 
 ]
-
 .pull-right[
-### Numbers
+![](img/apa.jpg)
+]
 
+---
+## APA Numbers
+
+.pull-left[
 Use words for:
 
 * Numbers from 0 to 9
@@ -74,6 +106,9 @@ Other rules:
 * Round to 2 or 3 places
 * Do not report statistics in both text and tables or figures
 * [See the APA style guide](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf)
+]
+.pull-right[
+![](img/apa.jpg)
 ]
 
 ---
@@ -101,26 +136,91 @@ Other rules:
 ]
 
 ---
+class: inverse
+
+# Describing Methods
+
+---
+
+From reading:
+
+* Completeness
+* Clarity
+* Credibility
+
+From reality:
+
+What these mean is context-specific
+
+Complete in JQC is too much for Criminology
+Complete in Criminology is too much for a report to stakeholders
+
+---
+class: inverse
+
+# Presenting Results
+
+---
+
+[FLOW CHART]
+
+What do we text
+
+* Key evidence
+* Isolated important values
+
+What do we table
+
+* Relatively few numbers
+* Need precise values to look up
+* Many different quantities for few cases
+
+What do we plot
+
+---
+# Text
+
+Do not describe everything
+
+
+
+---
 
 # Tables
 
-Tables should tand alone
+Tables should stand alone
 
 ---
 
-## What do we table
+
 
 ---
+
+## Style
+
+* Few lines
+* Few digits
+* Order rows and columns logically
+
+---
+class: inverse
 
 # Plots
 
+
 Figures should stand alone
+
+Won't spend much time here—read books and take courses on visualization
 
 ---
 
 ## What do we plot
 
+---
+# Principles
 
+Chart junk
+Small multiples
 
 ---
 
