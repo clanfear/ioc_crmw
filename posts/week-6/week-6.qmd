@@ -6,13 +6,15 @@ date: "2023-03-02"
 draft: false
 ---
 
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/6_writing-up-quantitative-research/slides_writing-up-quantitative-research.html)
+
 Required reading:
 
 * Bryman, A. (2015) *Social Research Methods*, 5th ed., Oxford: Oxford University Press. Chapter 28.
    * Access ebook via iDiscover
 
 * Matsueda, R. (2019) ‘Structuring a conventional empirical social science article.’ Unpublished.
-   * Access via Moodle or [here](S6 Matsueda (2019) Structuring a conventional empirical social science article.pdf)
+   * Access via Moodle or [here](https://clanfear.github.io/ioc_crmw/_lectures/6_writing-up-quantitative-research/reading/S6 Matsueda (2019) Structuring a conventional empirical social science article.pdf)
 
 Further reading:
 
