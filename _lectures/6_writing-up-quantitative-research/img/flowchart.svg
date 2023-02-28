@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="282.74175"
-     inkscape:cy="734.1006"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="513.50616"
+     inkscape:cy="563.20661"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
-     inkscape:window-x="2552"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -51,191 +51,198 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <g
-       transform="translate(15.848698,-22.223212)"
-       id="layer1-8"
-       inkscape:label="Layer 1">
-      <rect
-         y="13.159761"
-         x="73.194427"
-         height="53.453903"
-         width="53.453903"
-         id="rect815"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <text
-         id="text819"
-         y="28.447914"
-         x="78.060364"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#003c71;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#003c71;fill-opacity:1;stroke-width:0.26458332"
-           y="28.447914"
-           x="78.060364"
-           id="tspan817"
-           sodipodi:role="line">Lot 2</tspan></text>
-      <text
-         id="text823"
-         y="42.033844"
-         x="101.11019"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332"
-           y="46.403603"
-           x="101.11019"
-           id="tspan821"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332"
-           y="59.879944"
-           x="101.11019"
-           sodipodi:role="line"
-           id="tspan878">Y = 5</tspan></text>
-      <rect
-         y="13.159761"
-         x="12.121536"
-         height="53.453903"
-         width="53.453903"
-         id="rect815-0"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <text
-         id="text819-2"
-         y="28.447914"
-         x="19.750616"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#8a1538;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#8a1538;fill-opacity:1;stroke-width:0.26458332"
-           y="28.447914"
-           x="19.750616"
-           id="tspan817-4"
-           sodipodi:role="line">Lot 1</tspan></text>
-      <text
-         id="text823-1"
-         y="26.763908"
-         x="38.962212"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332"
-           y="31.133667"
-           x="38.962212"
-           id="tspan821-1"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332"
-           y="44.610008"
-           x="38.962212"
-           sodipodi:role="line"
-           id="tspan878-1">Y = 8</tspan></text>
-      <text
-         id="text823-1-7"
-         y="42.033844"
-         x="39.147629"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="46.403603"
-           x="39.147629"
-           id="tspan821-1-5"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="59.879944"
-           x="39.147629"
-           sodipodi:role="line"
-           id="tspan878-1-4">Y = 8</tspan></text>
-      <text
-         id="text823-1-7-3"
-         y="26.763908"
-         x="100.62831"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="31.133667"
-           x="100.62831"
-           id="tspan821-1-5-0"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="44.610008"
-           x="100.62831"
-           sodipodi:role="line"
-           id="tspan878-1-4-8">Y = 8</tspan></text>
-      <text
-         id="text823-3"
-         y="62.066746"
-         x="69.980492"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="66.436508"
-           x="69.980492"
-           id="tspan821-6"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="79.912842"
-           x="69.980492"
-           sodipodi:role="line"
-           id="tspan878-4">8-8 = 0     5-8 = -3</tspan></text>
-      <text
-         id="text823-1-0"
-         y="33.686779"
-         x="32.168106"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332"
-           y="38.056538"
-           x="32.168106"
-           id="tspan821-1-8"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332"
-           y="47.642048"
-           x="32.168106"
-           sodipodi:role="line"
-           id="tspan878-1-46">0</tspan></text>
-      <text
-         id="text823-1-0-4"
-         y="48.775379"
-         x="32.477989"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.26458332"
-           y="53.145138"
-           x="32.477989"
-           id="tspan821-1-8-5"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.26458332"
-           y="62.730648"
-           x="32.477989"
-           sodipodi:role="line"
-           id="tspan878-1-46-7">1</tspan></text>
-      <text
-         id="text823-1-0-48"
-         y="48.674171"
-         x="94.723854"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332"
-           y="53.04393"
-           x="94.723854"
-           id="tspan821-1-8-0"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332"
-           y="62.62944"
-           x="94.723854"
-           sodipodi:role="line"
-           id="tspan878-1-46-5">1</tspan></text>
-      <text
-         id="text823-1-0-3"
-         y="32.969166"
-         x="94.189316"
-         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.99607843;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.99607843;stroke-width:0.26458332"
-           y="37.338924"
-           x="94.189316"
-           id="tspan821-1-8-6"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.99607843;stroke-width:0.26458332"
-           y="46.924435"
-           x="94.189316"
-           sodipodi:role="line"
-           id="tspan878-1-46-9">0</tspan></text>
-    </g>
+     id="layer1"
+     transform="translate(0,-87)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect815"
+       width="53.453903"
+       height="53.453903"
+       x="89.043129"
+       y="-9.0634508" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#003c71;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="93.909065"
+       y="6.2247024"
+       id="text819"><tspan
+         sodipodi:role="line"
+         id="tspan817"
+         x="93.909065"
+         y="6.2247024"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#003c71;fill-opacity:1;stroke-width:0.26458332">Lot 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="116.95889"
+       y="19.810633"
+       id="text823"><tspan
+         sodipodi:role="line"
+         id="tspan821"
+         x="116.95889"
+         y="24.180391"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332" /><tspan
+         id="tspan878"
+         sodipodi:role="line"
+         x="116.95889"
+         y="37.656731"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332">Y = 5</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect815-0"
+       width="53.453903"
+       height="53.453903"
+       x="27.970234"
+       y="-9.0634508" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#8a1538;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="35.599316"
+       y="6.2247024"
+       id="text819-2"><tspan
+         sodipodi:role="line"
+         id="tspan817-4"
+         x="35.599316"
+         y="6.2247024"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#8a1538;fill-opacity:1;stroke-width:0.26458332">Lot 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="54.810909"
+       y="4.5406966"
+       id="text823-1"><tspan
+         sodipodi:role="line"
+         id="tspan821-1"
+         x="54.810909"
+         y="8.9104548"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332" /><tspan
+         id="tspan878-1"
+         sodipodi:role="line"
+         x="54.810909"
+         y="22.386797"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332">Y = 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="54.996326"
+       y="19.810633"
+       id="text823-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan821-1-5"
+         x="54.996326"
+         y="24.180391"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332" /><tspan
+         id="tspan878-1-4"
+         sodipodi:role="line"
+         x="54.996326"
+         y="37.656731"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332">Y = 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="116.47701"
+       y="4.5406966"
+       id="text823-1-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan821-1-5-0"
+         x="116.47701"
+         y="8.9104548"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332" /><tspan
+         id="tspan878-1-4-8"
+         sodipodi:role="line"
+         x="116.47701"
+         y="22.386797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332">Y = 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="85.829193"
+       y="39.843533"
+       id="text823-3"><tspan
+         sodipodi:role="line"
+         id="tspan821-6"
+         x="85.829193"
+         y="44.213295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332" /><tspan
+         id="tspan878-4"
+         sodipodi:role="line"
+         x="85.829193"
+         y="57.689629"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;stroke-width:0.26458332">8-8 = 0     5-8 = -3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="48.016804"
+       y="11.463567"
+       id="text823-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan821-1-8"
+         x="48.016804"
+         y="15.833325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332" /><tspan
+         id="tspan878-1-46"
+         sodipodi:role="line"
+         x="48.016804"
+         y="25.418837"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#8a1538;fill-opacity:1;stroke-width:0.26458332">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="48.326687"
+       y="26.552168"
+       id="text823-1-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan821-1-8-5"
+         x="48.326687"
+         y="30.921926"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.26458332" /><tspan
+         id="tspan878-1-46-7"
+         sodipodi:role="line"
+         x="48.326687"
+         y="40.507435"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.26458332">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="110.57256"
+       y="26.45096"
+       id="text823-1-0-48"><tspan
+         sodipodi:role="line"
+         id="tspan821-1-8-0"
+         x="110.57256"
+         y="30.820719"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332" /><tspan
+         id="tspan878-1-46-5"
+         sodipodi:role="line"
+         x="110.57256"
+         y="40.406227"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#003c71;fill-opacity:1;stroke-width:0.26458332">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.99607843;stroke:none;stroke-width:0.26458332"
+       x="110.03802"
+       y="10.745954"
+       id="text823-1-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan821-1-8-6"
+         x="110.03802"
+         y="15.115712"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.99607843;stroke-width:0.26458332" /><tspan
+         id="tspan878-1-46-9"
+         sodipodi:role="line"
+         x="110.03802"
+         y="24.701223"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.99607843;stroke-width:0.26458332">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="122.14217"
+       y="105.10049"
+       id="text922"><tspan
+         sodipodi:role="line"
+         id="tspan920"
+         x="122.14217"
+         y="105.10049"
+         style="stroke-width:0.26458332">How many values?</tspan></text>
   </g>
 </svg>

@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="Charles Lanfear" />
     <script src="libs/header-attrs-2.20/header-attrs.js"></script>
+    <link href="libs/tabwid-1.1.2/tabwid.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/cam-css.css" type="text/css" />
   </head>
   <body>
@@ -21,7 +22,7 @@ class: center, top, title-slide
 ### Charles Lanfear
 ]
 .date[
-### 2 Mar 2023<br>Updated: 22 Feb 2023
+### 2 Mar 2023<br>Updated: 28 Feb 2023
 ]
 
 ---
@@ -32,37 +33,48 @@ class: center, top, title-slide
 
 # Outline
 
-### Writing
+### Writing in General
 
-### Tables
+### Describing Methods
 
-### Charts
+### Presenting Results
+
+## Tables
+
+## Charts
 
 ---
 
 class: inverse
 
-# Writing in General
+# Writing
+
+&lt;br&gt;
+
+![:width 80%](img/stress.jpg)
 
 ---
 
 # Matsueda (2019)
 
 .pull-left-70[
-* Empirical writing has a common structure
+* Empirical, especially quantitative, writing has a common structure
    * Efficient for communication
    * Hourglass shape
+   
 * Mimic others:
    * Articles in prominent outlets
    * Good writers
+   
 * Highlight your contributions
+
 * Literature reviews are important
    * Position your work
    * Argument and conversation, not summary
 ]
 
 .pull-right-30[
-![:width 80%](img/ross.jpg)
+![:width 95%](img/ross.jpg)
 ]
 
 
@@ -116,7 +128,9 @@ Other rules:
 # General Tips
 
 .pull-left[
-* Clarity comes first
+* **Clarity comes first**
+
+   * *Do not write so you can be understood, but so that so you cannot be misunderstood*
 
 * **Read** good books on writing &amp;rarr;
 
@@ -140,25 +154,82 @@ class: inverse
 
 # Describing Methods
 
+&lt;br&gt;
+
+![:width 80%](img/klm.png)
+
 ---
+
+## What to Include
 
 .pull-left[
 
 From reading:
 
 * Completeness
+
+   + *Describe everything you did*
+
 * Clarity
+
+   + *Describe each thing in sufficient detail for the average reader to understand what was done*
+
 * Credibility
+
+   + *Justify your choices*
+   + What you did should follow logically from your **research design**
 ]
 
-From reality:
+--
 
-Context-specific
+.pull-right[
+From me:
 
-Complete in JQC is too much for Criminology
-Complete in Criminology is too much for a report to stakeholders
+* Know your audience
+
+   + *Journal of Quantitative Criminology*
+   + *Criminology*
+   + Policy reports
+   + Public scholarship
+
+* Lean on references
+
+   + "Following Sampson et al. (1997), I..."
+   
+* **Do not neglect justifications**
+
+* **Do not oversell**
+
+]
 
 
+---
+
+## Three Quantities
+
+
+.pull-left-60[
+
+* **Estimand**: the real-world quantity we want to measure
+
+   + Your literature review justifies interest in the estimand
+
+
+* **Estimator**: the procedure we use to calculate the estimate using data
+
+   + Your research design justifies the use of estimator
+
+
+* **Estimate**: the calculated quantity approximating our estimand
+
+   + The validity of your design justifies trust in this estimate
+]
+
+.pull-right-40[
+![:height 500px](img/estimation.png)
+]
+
+.footnote[Credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
 
 ---
 class: inverse
@@ -182,6 +253,7 @@ class: inverse
 * Important standalone values
    + Sample size
    + Response rate
+* **Nothing unimportant**
 ]
 .column[
 
@@ -189,11 +261,12 @@ class: inverse
 ### Table
 ]
 
-* Relatively few numbers
+* Few numbers
    + Cross-tabs
 * Precise values for look up
    + Descriptives
    + Complete model estimates
+* Many values of different kinds
 ]
 .column[
 
@@ -203,21 +276,53 @@ class: inverse
 
 * **Everything else**
 * Especially:
-   + Comparisons
+   + Comparisons with similar data
    + Multivariable relationships
    + Anything hard to explain verbally
 ]
 ]
 
-
-
-
-
-
 ---
+
 # Text
 
-Do not describe everything
+---
+# Examples
+
+Highlighting big hooks:
+
+&gt; Race and ethnic differences in exposure to firearm violence are pronounced, with both forms of exposure highest for Black respondents (Figure 2A). By age 40, an estimated 7.47% of Black and 7.05% of Hispanic respondents had been shot, with one Black and one Hispanic respondent fatally shot. In contrast, an estimated 3.13% of White respondents were victims of a shooting by age 40.&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+[1] Lanfear, Bucci, Sampson, &amp; Kirk (Under review)&lt;br&gt;&amp;nbsp;
+]
+
+--
+
+Main estimates:
+
+&gt; 1 standard deviation higher level of abandoned buildings—21 percent more block faces with abandoned buildings on and around that block—is expected to be associated with, on average, approximately 20 percent more homicides and gun assaults than an otherwise similar block."
+
+.footnote[
+[2] [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)
+]
+
+---
+# Causal Language
+
+Don't 
+
+.pull-left[
+* "Increases"
+* "Affects"
+* "Leads to"
+]
+.pull-right[
+* "Is associated with"
+* "Relates to"
+* ""
+]
+
 
 
 
@@ -234,26 +339,160 @@ Style
 * Order rows and columns logically
 
 ---
+
+![](img/apa_table_diagram.jpg)
+
+---
+
+# Table Tools
+
+Non-Programmatic
+
+* Word / Google Docs
+* Excel / Google Sheets
+
+Programmatic
+
+* R Markdown
+* `\(\LaTeX\)`
+
+---
+# Example
+
+&lt;template id="dbf99c2d-a35a-4929-adfa-f26779c5284b"&gt;&lt;style&gt;
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  border-color: transparent;
+  caption-side: top;
+}
+.tabwid-caption-bottom table{
+  caption-side: bottom;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td, .tabwid th {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+.katex-display {
+    margin: 0 0 !important;
+}
+&lt;/style&gt;&lt;div class="tabwid"&gt;&lt;style&gt;.cl-540cd9a6{}.cl-540791b2{font-family:'Arial';font-size:16pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-5409a1fa{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-5409ad80{width:1.5in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5409ad81{width:1.2in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5409ad8a{width:1.5in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-5409ad8b{width:1.2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}&lt;/style&gt;&lt;table data-quarto-disable-processing='true' class='cl-540cd9a6'&gt;&lt;thead&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;th  colspan="4"class="cl-5409ad80"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Table 1. Actions by treatment condition&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;th class="cl-5409ad80"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Condition&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-5409ad81"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Walk-By&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-5409ad81"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Mail&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-5409ad81"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Theft&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td  rowspan="2"class="cl-5409ad8a"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Control&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;1496&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;176&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;28&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;88.0%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;10.4%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt; 1.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td  rowspan="2"class="cl-5409ad80"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;Treatment&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;1617&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;136&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad8b"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;28&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-5409ad81"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt;90.8%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad81"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt; 7.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-5409ad81"&gt;&lt;p class="cl-5409a1fa"&gt;&lt;span class="cl-540791b2"&gt; 1.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/template&gt;
+&lt;div class="flextable-shadow-host" id="4bab83de-672a-4e00-8f3d-a848343c2d9f"&gt;&lt;/div&gt;
+&lt;script&gt;
+var dest = document.getElementById("4bab83de-672a-4e00-8f3d-a848343c2d9f");
+var template = document.getElementById("dbf99c2d-a35a-4929-adfa-f26779c5284b");
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+&lt;/script&gt;
+
+**Causal** design:
+
+* "There was no **effect** of treatment on theft."
+* "The treatment **reduced** mailing by 2.8 percentage points."
+
+---
 class: inverse
 
 # Plots
 
+&lt;br&gt;
 
-Figures should stand alone
+![:width 80%](img/dognames.png)
 
-Won't spend much time here—read books and take courses on visualization
+.footnote[Source: [Fowers &amp; Alcantara (2022)](https://www.washingtonpost.com/business/interactive/2022/people-names-for-dogs/?tid=ss_tw)]
+
+---
+
+## Basics
+
+* What do we plot
+
+   + *Nearly everything, if possible*
+   + Model results
+   + **Maps!**
+   
+--
+
+* *Figures should stand alone*
+
+   + Use informative titles and labels
+   + Include detailed captions
+
+--
+
+* Visualization is hard!
+
+   + Take courses on visualization, e.g.:
+      * [Chris Adolph free materials](http://faculty.washington.edu/cadolph/index.php?page=22)
+      * [Nathan Yau's affordable *Flowing Data*](https://flowingdata.com/)
+   + *Read books*
 
 ---
 
-## What do we plot
+## Book Recommendations
+
+.pull-left[
+![:height 480px](img/dv-cover-pupress.jpg)
+
+* With programming (in R)
+
+]
+.pull-right[
+![:height 480px](img/wilke_cover.png)
+
+* Without programming
+]
+
+
 
 ---
-# Principles
 
-Chart junk
-Small multiples
+## Put plots in tables!
+
+![:width 50%](img/ce-be.png)
+
+.footnote[Source: [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)]
 
 ---
+
+.pull-left-40[
+![:width 100%](img/fig-3-model-results.png)
+]
+.pull-right-60[
+.text-72[
+## Put tables in plots!
+
+Figure 3. Model Estimates of Disparities in Exposure to Gun Violence to Age 40
+
+Hazard ratios (HR) and incidence rate ratios (IRR) greater than 1 indicate higher estimated exposure to gun violence. HRs were estimated with a semi-parametric Turnbull proportional hazards model. IRRs were estimated with a negative binomial regression. Models are weighted to permit generalizing estimates of exposure to the population of children coming of age in Chicago in the 1990s. Case weights applied during estimation are constructed from a combination of original survey design weights and weights for attrition constructed using predictions from binary logistic regression models. The final weights used in the analysis are the product of the survey design weights and attrition weights at each wave. Observations receive the combined weight at their final follow-up period (e.g., an individual observed through wave 3 would receive a weight equal to the product of the survey design weight, their wave 2 attrition weight, and their wave 3 attrition weight). Results are insensitive to trimming weights to the center 90% of the distribution. Results are also similar as alternative specifications of survival models (see eFigure 2) and without weights (see eFigure 3). Sample sizes are 2,417 for seen shot, 2,135 for been shot, and 649 for nearby shootings.
+]
+]
+
+.footnote[Source: Lanfear, Bucci, Sampson, &amp; Kirk (Under review)]
+
+
 
 
 
