@@ -25,17 +25,37 @@ library(flextable)
 ```
 
 
-# Outline
+# Today
 
-### Writing in General
+## Writing in General
 
-### Describing Methods
+## Describing Methods
 
-### Presenting Results
+## Presenting Results
 
-## Tables
+--
 
-## Charts
+<br>
+<br>
+<br>
+
+.text-center[
+*But first...*
+]
+
+---
+
+class: inverse
+
+.text-big-center[
+Sign up for interviews
+]
+
+.text-center[
+Attendance **will not count** without participation
+
+Participation requires **signing up**
+]
 
 ---
 
@@ -49,77 +69,80 @@ class: inverse
 
 ---
 
-# Matsueda (2019)
+## Target your writing
 
-.pull-left-70[
-* Empirical, especially quantitative, writing has a common structure
-   * Efficient for communication
-   * Hourglass shape
-   
-* Mimic others:
-   * Articles in prominent outlets
-   * Good writers
-   
-* Highlight your contributions
+Professional (academic) writing is purposeful **communication** to an audience
 
-* Literature reviews are important
-   * Position your work
-   * Argument and conversation, not summary
+--
+
+.pull-left[
+* Know the purpose
+
+   + Argument
+   + Description
+   + Theoretical test
+   + Policy evaluation
 ]
 
-.pull-right-30[
-![:width 95%](img/ross.jpg)
+--
+
+.pull-right[
+* Know the audience
+
+   + Examiners (e.g., essay or thesis)
+   + Academics (e.g., journal)
+   + Policy actors (e.g., policy brief)
+   + Lay people (e.g., public scholarship)
+]
+
+--
+
+.text-center[
+*Everything you write should serve your purpose and be understood by your audience*
 ]
 
 
 ---
-# APA: Grammar
 
-.pull-left-60[
+## When you write
 
+.pull-left[
+* **Clarity comes first**
 
-Past / present perfect tense:
-
-* Literature review
-* Methods and results
-* "Sampson et al. (1997) observed..."
-* "The treatment decreased..."
-
-Present tense:
-
-* Discussion
-* Conclusions
-* "Our results indicate..."
-* "This study is limited in that..."
-
+   * *Do not write so you can be understood, but so that so you cannot be misunderstood*
 ]
-.pull-right-40[
-![](img/apa.jpg)
+
+.pull-right[
+![](img/books_cropped.jpg)
 ]
 
 ---
-# APA: Numbers
+count:false
 
-.pull-left-60[
-Use words for:
+## When you write
 
-* Numbers from 0 to 9
-* Common fractions and phrases (e.g., one tenth)
-* The start of a sentence
+.pull-left[
+* **Clarity comes first**
 
-Other rules:
+   * *Do not write so you can be understood, but so that so you cannot be misunderstood*
 
-* Round to 2 or 3 places
-* Do not report statistics in both text and tables or figures
-* [See the APA style guide](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf)
+* **Read** good books on writing &rarr;
+
+* **Read** and emulate good writers
+
+* **Read** your work out loud
+
+   * *Good writing seems natural*
 ]
-.pull-right-40[
-![](img/apa.jpg)
+
+.pull-right[
+![](img/books_cropped.jpg)
 ]
 
 ---
+count:false
 
-# General Tips
+## When you write
 
 .pull-left[
 * **Clarity comes first**
@@ -144,9 +167,92 @@ Other rules:
 ]
 
 ---
+
+## Empirical papers: Matsueda (2019)
+
+.pull-left-70[
+* Empirical, especially quantitative, writing has a common structure
+   + Efficient communication—*deviate at your peril*
+   + **Hourglass** shape
+      * Start with big picture
+      * Narrow to what you did
+      * Relate back to big picture
+   
+* **Mimic others**:
+   * Prominent outlets
+   * Good writers
+   
+* Highlight your contributions
+
+* Literature reviews are **important**
+   * Position your work in the conversation
+]
+
+.pull-right-30[
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+![:width 95%](img/ross.jpg)
+]
+
+---
+
+# Structure
+
+Empirical articles rarely stray far from this:
+
+1. Abstract
+2. Introduction
+3. Literature Review / Background
+4. **Methods**
+5. **Results**
+6. **Discussion**
+7. Conclusion<sup>1</sup>
+
+.footnote[
+[1] Often in discussion rather than separate
+]
+
+--
+
+<br>
+
+.text-center[
+*We'll mainly focus on methods, results, and discussion*
+]
+
+---
+
+## Abstract
+
+* An elevator speech: Summarize the entire paper in 200 words
+
+--
+
+## Introduction
+
+* **Hook the reader**
+* State the research question
+* Highlight contribution or main findings (optional)
+* Foreshadow the structure of paper
+
+--
+
+## Literature Review / Background
+
+* **Motivate the research question and design**
+   * This section is an **argument** not a summary
+* Support key assumptions and arguments
+   * *Your theoretical model and every variable should be covered*
+* Lay out hypotheses
+   * *This is often done in its own section between background and methods*
+
+
+
+---
 class: inverse
 
-# Describing Methods
+# Data and Methods
 
 <br>
 
@@ -160,17 +266,18 @@ class: inverse
 
 From reading:
 
-* Completeness
+* **Be complete**
 
    + *Describe everything you did*
 
-* Clarity
+* **Be clear**
 
    + *Describe each thing in sufficient detail for the average reader to understand what was done*
 
-* Credibility
+* **Be credible**
 
    + *Justify your choices*
+      + Data and method
    + What you did should follow logically from your **research design**
 ]
 
@@ -179,60 +286,127 @@ From reading:
 .pull-right[
 From me:
 
-* Know your audience
+* **Know your audience**
 
    + *Journal of Quantitative Criminology*
    + *Criminology*
    + Policy reports
    + Public scholarship
 
-* Lean on references
+* **Lean on references**
 
    + "Following Sampson et al. (1997), I..."
-   
-* **Do not neglect justifications**
 
 * **Do not oversell**
-
 ]
-
 
 ---
 
-## Three Quantities
+## Data
+
+* **Where** and **when** it was collected
+
+   + e.g., London in 2014–2018
+
+--
+
+* **How** it was collected
+
+   + *Sampling design and measurement method*
+   + e.g., random-digit-dial phone survey
+
+--
+
+* What are the **units**?
+
+   + *Both for collection and analysis*
+   + e.g., individual survey responses aggregated to wards
+
+--
+
+* **Excluded** or **missing** data
+
+   + *Both what is missing and what you did about it*
+   + Include non-response and loss to follow-up
+
+--
+
+* What **transformations** or **modifications** were made
+   + *What you did and why*
+   + e.g., standardization
+
+---
+
+## Methods
+
+* Statistical method
+
+   + *What you did and why—and why **not** other ways*
+   + e.g.: 
+      + "Crime was modelled using Poisson regression because the outcome is a strictly non-negative integer."
+      + "We control for unstructured socialization as it is a known confounder for..."
+      + "I did not control for ambient population, because it is a mediator for..."
+
+--
+
+* The more established the approach, the less detail you need
+
+   * Linear regression needs a sentence
+   * A structural equation needs a paragraph
+   * New approaches can require an entire paper
+
+--
+
+.text-center[
+*Level of detail and justification is context-specific; a common approach in one subfield may be new to another*
+]
+
+---
+
+## Communicate the three quantities
 
 
 .pull-left-60[
 
 * **Estimand**: the real-world quantity we want to measure
 
-   + Your literature review justifies interest in the estimand
+   + Your **literature review** justifies interest in the estimand; specify it in **methods**
 
 
 * **Estimator**: the procedure we use to calculate the estimate using data
 
-   + Your research design justifies the use of estimator
+   + Your **methods section** justifies the use of the estimator
 
 
 * **Estimate**: the calculated quantity approximating our estimand
 
-   + The validity of your design justifies trust in this estimate
+   + Your **results section** presents these, under the assumption your estimator is correct
 ]
 
 .pull-right-40[
 ![:height 500px](img/estimation.png)
 ]
 
-.footnote[Credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
+.footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
+
+
 
 ---
 class: inverse
 
 # Presenting Results
 
+<br>
+<br>
+
+![:width 80%](img/fig-2-survival-curves.png)
+.footnote[
+[1] Source: Lanfear, Bucci, Sampson, & Kirk (Under review)
+]
+
 ---
 
-# Where numbers go
+## Where numbers go
 
 .container[
 .column[
@@ -241,12 +415,12 @@ class: inverse
 ### Text
 ]
 
-* Key evidence
+* **Key evidence**
    + Main estimates
    + Big "hooks"
 * Important standalone values
-   + Sample size
-   + Response rate
+   + e.g., sample size
+* **Very few at a time**
 * **Nothing unimportant**
 ]
 .column[
@@ -255,12 +429,11 @@ class: inverse
 ### Table
 ]
 
-* Few numbers
-   + Cross-tabs
 * Precise values for look up
-   + Descriptives
-   + Complete model estimates
+   + **Descriptive statistics**
+   + Model estimates
 * Many values of different kinds
+   + Data tables
 ]
 .column[
 
@@ -278,7 +451,96 @@ class: inverse
 
 ---
 
-# Text Examples
+# Text
+
+For values in text (and tables)...
+
+.pull-left[
+
+* Use appropriate **precision**
+
+   + Bad: $3.1445 \pm 0.2331$
+   + Good: $3.14 \pm 0.23$
+
+* Use appropriate **scaling**
+
+   + Bad: $\beta=0.0025\text{km}$
+   + Good: $\beta=2.5 \text{m}$
+]
+
+--
+
+.pull-right[
+
+* Use **units**
+
+   + "30 more burglaries"
+   + "1 SD higher robbery (23 robberies)"
+   + "A 5 percentage point difference"
+   + "25 percent more thefts"
+
+]
+
+
+--
+
+* Recognize **substantive** and **statistical** significance
+
+   * Detecting something and caring about it are different things
+
+--
+
+<br>
+
+.text-center[
+*Present only numbers that serve your objective and are meaningful to your audience*
+]
+
+---
+## Writing about relationships
+
+Your design determines if estimated relationships are plausibly causal or not
+
+--
+
+.pull-left[
+&zwj;**Causal** language:
+
+* "increases"
+* "affects"
+* "influences"
+]
+
+--
+
+.pull-right[
+**Non-causal** language:
+
+* "is associated with"
+* "correlates with"
+* "is positively related to"
+]
+
+--
+
+<br>
+
+.text-center[
+*Do not try to be clever about this*
+]
+
+--
+
+<br>
+
+In either case, note when this relationship is found controlling for other variables:
+
+> "Conditional on sociodemographic structure of neighborhoods, we find a 1 standard deviation increase in collective efficacy to be associated with a 17.5% reduction in violent crime in the next year."
+
+
+---
+
+## Text Examples
 
 Highlighting big hooks:
 
@@ -292,63 +554,67 @@ Highlighting big hooks:
 
 Main estimates:
 
-> 1 standard deviation higher level of abandoned buildings—21 percent more block faces with abandoned buildings on and around that block—is expected to be associated with, on average, approximately 20 percent more homicides and gun assaults than an otherwise similar block.<sup>2</sup>
+> A 1 standard deviation higher level of abandoned buildings—21 percent more block faces with abandoned buildings on and around that block—is expected to be associated with, on average, approximately 20 percent more homicides and gun assaults than an otherwise similar block.<sup>2</sup>
 
 .footnote[
 [2] [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)
 ]
 
 ---
-# Causal Language
-
-Don't 
-
-.pull-left[
-* "Increases"
-* "Affects"
-* "Leads to"
-]
-.pull-right[
-* "Is associated with"
-* "Relates to"
-* ""
-]
-
-
-
-
----
 
 # Tables
 
-Tables should stand alone
+*Tables should stand alone*
 
-Style
+.pull-left[
+* Title, headings, notes, and structure should convey:
+   + Purpose
+   + Context
+   + Units
+   + Source of data
+   + Definitions of abbreviations
 
-* Few lines
-* Few digits
-* Order rows and columns logically
+
+]
+
+--
+
+.pull-right[
+* Make them **simple** and **intuitive**
+   * No ornamentation
+      + Lines only to guide eyes
+   * Values with proper scale and precision
+   * Order rows and columns purposefully
+]
+
+--
+
+Creating tables:
+
+.container[
+.pull-left[
+* Non-Programmatic
+
+   * Word / Google Docs
+   * Excel / Google Sheets
+]
+.pull-right[
+* Programmatic
+
+   * R / R Markdown
+   * $\LaTeX$ (plz no)
+]
+]
 
 ---
 
 ![](img/apa_table_diagram.jpg)
+.footnote[
+Source: APA Publication Manual, 7th Ed.
+]
 
 ---
-
-# Table Tools
-
-Non-Programmatic
-
-* Word / Google Docs
-* Excel / Google Sheets
-
-Programmatic
-
-* R Markdown
-* $\LaTeX$
-
----
-# Example
+## An example
 
 ```{r, echo = FALSE}
 tribble(~Condition, ~`Walk-By`, ~Mail, ~Theft,
@@ -383,21 +649,15 @@ tribble(~Condition, ~`Walk-By`, ~Mail, ~Theft,
 * "The treatment **reduced** mailing by 2.8 percentage points."
 
 ---
-class: inverse
 
-# Plots
-
-<br>
-
-![:width 80%](img/dognames.png)
-
-.footnote[Source: [Fowers & Alcantara (2022)](https://www.washingtonpost.com/business/interactive/2022/people-names-for-dogs/?tid=ss_tw)]
+![:height 600px](img/ce-be-factors.png)
+.footnote[Source: [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)]
 
 ---
 
-## Basics
+# Figures
 
-* What do we plot
+* What do we put in figures?
 
    + *Nearly everything, if possible*
    + Model results
@@ -414,10 +674,30 @@ class: inverse
 
 * Visualization is hard!
 
+   + Too involved to scratch surface today
    + Take courses on visualization, e.g.:
       * [Chris Adolph free materials](http://faculty.washington.edu/cadolph/index.php?page=22)
       * [Nathan Yau's affordable *Flowing Data*](https://flowingdata.com/)
    + *Read books*
+
+---
+
+## An Example
+
+.pull-left[
+![:width 100%](img/fig-e2-aft-model-results.png)
+]
+.pull-right[
+.text-85[
+eFigure 2: Interval Censored Accelerated Failure Time Models
+
+Squares represent acceleration factor point estimates from AFT models that relax the proportional hazards assumption of the main text SPT proportional hazards models. AFT estimates may be sensitive to the distribution chosen, so four different parametric specifications are presented. Results are similar across all specifications but the best fit by AIC is obtained from the log-normal model in all panels except A, where the log-logistic specification is preferred.
+]
+]
+
+.footnote[
+[1] Source: Lanfear, Bucci, Sampson, & Kirk (Under review)
+]
 
 ---
 
@@ -452,7 +732,7 @@ class: inverse
 ]
 .pull-right-60[
 .text-72[
-## Put tables in plots!
+## Describe in detail!
 
 Figure 3. Model Estimates of Disparities in Exposure to Gun Violence to Age 40
 
@@ -463,13 +743,70 @@ Hazard ratios (HR) and incidence rate ratios (IRR) greater than 1 indicate highe
 .footnote[Source: Lanfear, Bucci, Sampson, & Kirk (Under review)]
 
 
+---
 
+# Discussion
 
+* Limitations
+
+   * *Be honest but not self-flagellating*
+      * Don't present only trivial weaknesses
+      * Do note if you improve on past methods
+   * Specify how future research can address them
+
+--
+
+* Implications
+
+   * New or unanswered research questions
+   * Connect back to theories
+   * Resist making policy prescriptions (unless the goal of the paper)
+      * Drawing *attention* to a problem is fine
+
+--
+
+* Finish strong and **upbeat**
+
+   * "Despite these limitations, this study contributes to our understanding..."
+   * Reiterate most significant takeaways
+   * *Some people skip right to the conclusion, so use **hooks** here too*
 
 ---
 
-# Wrap-Up
+class: inverse
 
-### Moving Forward
+# Moving Forward
 
+.pull-left[
+Read books on:
+
+* Writing
+* Presenting results
+
+Read articles
+
+* Pay attention to **style** in addition to content
+* Take note of effective figures
+
+**Practice!**
+
+
+]
+.pull-right-40[
+![](img/miller.jpg)
+]
+
+---
+
+class: inverse
+
+.text-big-center[
+Sign up for interviews
+]
+
+.text-center[
+Attendance **will not count** without participation
+
+Participation requires **signing up**
+]
 
