@@ -2,7 +2,7 @@
 title: "Seminar 7: Conducting Interviews"
 description: "Practicing qualitative research using interviews"
 author: "Arushi Garg"
-date: "2023-03-09"
+date: "2024-03-07"
 draft: false
 ---
 

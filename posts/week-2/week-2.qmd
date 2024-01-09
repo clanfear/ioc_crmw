@@ -1,32 +1,33 @@
 ---
-title: "Seminar 2: Quantitative Data Management"
-subtitle: "**Optional for Crim 1 students**"
-description: "Dealing with real world data"
+title: "Seminar 2: Writing Up Quantitative Research"
+description: "Basic guidelines for presenting quantitative data and results"
 author: "Charles Lanfear"
-date: "2023-02-02"
+date: "2024-02-01"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/2_quantitative-data-management/slides_quantitative-data-management.html)
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/2_writing-up-quantitative-research/slides_writing-up-quantitative-research.html)
 
-Data for lab:
+Required reading:
 
-* [London Crime data (.zip)](https://clanfear.github.io/ioc_crmw/_data/dpu-crime-met-2022.zip)
-* [LSOA Indices of Deprivation (.csv)](https://clanfear.github.io/ioc_crmw/_data/imd2019lsoa.csv)
-* [LSOA Population Density (.xlsx)](https://clanfear.github.io/ioc_crmw/_data/land-area-population-density-lsoa11-msoa11.xlsx)
+* Bryman, A. (2015) *Social Research Methods*, 5th ed., Oxford: Oxford University Press. Chapter 28.
+   * Access ebook via iDiscover
 
-Required readings:
+* Matsueda, R. (2019) ‘Structuring a conventional empirical social science article.’ Unpublished.
+   * Access via Moodle or [here](https://clanfear.github.io/ioc_crmw/_lectures/6_writing-up-quantitative-research/reading/S6 Matsueda (2019) Structuring a conventional empirical social science article.pdf)
 
-* Quartz. *The Quartz guide to bad data.* https://github.com/Quartz/bad-data-guide
-   * “An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.”
-   * Don’t read this thoroughly, but browse through it a bit!
+Further reading:
 
-Further reading and resources:
+* Wentz, E. (2014)  *How to Design, Write, and Present a Successful Dissertation Proposal*, London: SAGE.
+ https://doi.org/10.4135/9781506374710
 
-* Wickham, H. and Grolemund, G. (2022) *R for Data Science.* Sebastopol, CA: O’Reilly. https://r4ds.hadley.nz/ 
+* Fallon, M. (2016) *Writing up Quantitative Research in the Social and Behavioral Sciences*, Rotterdam : SensePublishers.
+   * Access ebook via iDiscover
 
-* Robinson, D. *Tidy Tuesday live screencasts.* https://www.youtube.com/@safe4democracy/streams 
-   * Livestreamed data cleaning and analysis videos. See also https://www.youtube.com/@JuliaSilge 
+* American Psychological Association (2020) *Publication Manual of the American Psychological Association : The Official Guide to APA Style*, Seventh ed., Washington, DC : American Psychological Association
 
-* Data Carpentry. (2022) *Social Science Curriculum.* https://datacarpentry.org/lessons/#social-science-curriculum 
-   * Recommended workshop rather than reading; look for upcoming workshops!
+* Miller, J.E. (2015) *The Chicago Guide to Writing about Numbers* (2nd ed.). Chicago: University of Chicago Press.
+
+* McCloskey, D. (2019) *Economical Writing: Thirty-Five Rules for Clear and Persuasive Prose* (3rd ed.). Chicago: University of Chicago Press.
+
+* Becker, H.S. (2020) *Writing for Social Scientists: How to Start and Finish Your Thesis, Book, or Article* (3rd ed.). Chicago: University of Chicago Press.

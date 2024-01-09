@@ -1,29 +1,26 @@
 ---
-title: "Seminar 3: Conducting Observations and Ethnography"
-description: "Practicing observational methods"
-author: "Sarah Doxat-Pratt"
-date: "2023-02-08"
+title: "Seminar 3: Applied Regression Analysis"
+subtitle: "**Optional for Crim 1 students**<br>(Cancelled due to strike)"
+description: "Practicing linear regression"
+author: "Charles Lanfear"
+date: "2024-02-08"
 draft: false
 ---
 
-Lecture slides on Moodle
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/slides_applied-regression-analysis.html)
 
 Required reading:
 
-* Hammersley, M. and Atkinson, P. (1995) *Ethnography: Principles in practice*, 2nd ed., London: Routledge.
-   * Read chapter 4, ‘Field relations’, pp.80-123.
-   * Access reading via Moodle
+* Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)
+
+* Altman, N. and Krzywinski (2016) Regression diagnostics. Nature Methods, 13:385-386 https://www.nature.com/articles/nmeth.3854
 
 Further reading:
 
-* King, R.D. and Liebling, A. (2007) ‘Doing research in prisons’, in R.D. King and E. Wincup (eds) *Doing Research on Crime and Justice*, 2nd ed.,  Oxford: Oxford University Press, pp. 431-451.
+* Kassambara, A. (2018) "Linear regression assumptions and diagnostics in R: Essentials." http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
+   * A good very quick overview of basic R diagnostics for linear models
 
-* Coffey, A. (2018) Doing Ethnography, Los Angeles, CA: Sage Publications.
-Access ebook via iDiscover
+* Gelman, A. and Hill, J. (2007) *Data Analysis using Regression and Multilevel/Hierarchical Models.* Cambridge University Press.
+   * The best general regression textbook, with detailed discussion of model diagnostics
 
-* Ferrell, J. and Hamm, M.S. (1998) *Ethnography at the Edge: Crime, deviance, and field research*, Boston, MA: Northeastern University Press.
-Access ebook via iDiscover
-
-* Crewe, B. (2006) ‘Prison drug dealing and the ethnographic lens’, *The Howard Journal of Criminal Justice*, 45(4): 347-368.
-https://doi.org/10.1111/j.1468-2311.2006.00428.x
 

@@ -1,33 +1,31 @@
 ---
-title: "Seminar 6: Writing Up Quantitative Research"
-description: "Basic guidelines for presenting quantitative data and results"
-author: "Charles Lanfear"
-date: "2023-03-02"
+title: "Seminar 6: Writing Up Qualitative Research"
+description: "Developing skills in presenting qualitative research"
+author: "Ailie Rennie"
+date: "2024-02-29"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/6_writing-up-quantitative-research/slides_writing-up-quantitative-research.html)
-
 Required reading:
 
-* Bryman, A. (2015) *Social Research Methods*, 5th ed., Oxford: Oxford University Press. Chapter 28.
-   * Access ebook via iDiscover
+* Wolcott, H.F. (2009) *Writing Up Qualitative Research*, 3rd ed., Los Angeles, CA: Sage.
+   * Read chapter 2, ‘Get Going’, pp. 9-44. Other chapters are also useful. 
+   * Access ebook via iDiscover 
 
-* Matsueda, R. (2019) ‘Structuring a conventional empirical social science article.’ Unpublished.
-   * Access via Moodle or [here](https://clanfear.github.io/ioc_crmw/_lectures/6_writing-up-quantitative-research/reading/S6 Matsueda (2019) Structuring a conventional empirical social science article.pdf)
+* White, C.,  Woodfield, K.,  Ritchie, J. and Ormston, R.  (2014) ’Writing up qualitative research’ in  Ritchie, J.,  Lewis, J., McNaughton Nicholls, C. and Ormston, R. *Qualitative Research Practice: a guide for Social Science Students and Researchers*. London: Sage Publications.  
+   * Access reading via Moodle 
+
+* Alvermann, D. E., O'Brien, D. G., and Dillon, D. R. (1996) ‘On writing qualitative research’, *Reading Research Quarterly*, 31(1), 114-120.
+   * Access via JSTOR
 
 Further reading:
 
-* Wentz, E. (2014)  *How to Design, Write, and Present a Successful Dissertation Proposal*, London: SAGE.
- https://doi.org/10.4135/9781506374710
+* Coffey, A. and Atkinson, P. (1996) *Making Sense of Qualitative Data: Complementary research strategies*, Thousand Oaks, CA: Sage. Read chapter 5, ‘Writing and representation’, pp. 108-138. 
 
-* Fallon, M. (2016) *Writing up Quantitative Research in the Social and Behavioral Sciences*, Rotterdam : SensePublishers.
+* Holliday, A, (2016) *Doing and Writing Qualitative Research*, 3rd edition, London: Sage.
+
+* Krause, M. (2016) ‘The meanings of theorizing’, *British Journal of Sociology*, 67(1), 23-29. https://doi.org/10.1111/1468-4446.12187_4
+
+* Mills, C. Wright (1959) *The Sociological Imagination*, Oxford: Oxford University Press
    * Access ebook via iDiscover
 
-* American Psychological Association (2020) *Publication Manual of the American Psychological Association : The Official Guide to APA Style*, Seventh ed., Washington, DC : American Psychological Association
-
-* Miller, J.E. (2015) *The Chicago Guide to Writing about Numbers* (2nd ed.). Chicago: University of Chicago Press.
-
-* McCloskey, D. (2019) *Economical Writing: Thirty-Five Rules for Clear and Persuasive Prose* (3rd ed.). Chicago: University of Chicago Press.
-
-* Becker, H.S. (2020) *Writing for Social Scientists: How to Start and Finish Your Thesis, Book, or Article* (3rd ed.). Chicago: University of Chicago Press.

@@ -1,24 +1,43 @@
 ---
-title: "Seminar 4: Applied Regression Analysis"
-subtitle: "**Optional for Crim 1 students**<br>(Cancelled due to strike)"
-description: "Practicing linear regression"
-author: "Charles Lanfear"
-date: "2023-02-16"
+title: "Seminar 4: Qualitative Coding and Analysis"
+description: "Practice in qualitative data analysis"
+author: "Daria Przybylska"
+date: "2024-02-15"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/4_applied-regression-analysis/slides_applied-regression-analysis.html)
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/)
 
 Required reading:
 
-* Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)
+* Coffey, A. and Atkinson, P. (1996) *Making Sense of Qualitative Data: Complementary research strategies*, Thousand Oaks, CA: Sage. Read chapter 2.
+   * Access reading via Moodle
 
-* Altman, N. and Krzywinski (2016) Regression diagnostics. Nature Methods, 13:385-386 https://www.nature.com/articles/nmeth.3854
+* Robson, C. (2016) *Real World Research: A resource for users of social research methods in applied settings*, 4th ed., Chichester: Wiley. Read chapter 18 'The analysis and interpretation of qualitative data', pp. 459-486.
+   * Access reading via Moodle
+
+* Braun, V. and Clarke, V. (2021) 'One size fits all? What counts as quality practice in (reflexive) thematic analysis?', *Qualitative Research in Psychology*, 18:3, 328-352. https://doi.org/10.1080/14780887.2020.1769238
 
 Further reading:
 
-* Kassambara, A. (2018) "Linear regression assumptions and diagnostics in R: Essentials." http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
-   * A good very quick overview of basic R diagnostics for linear models
+* Miles, B. and Huberman, A.M. (1994) *Qualitative Data Analysis: An expanded sourcebook*, 2nd ed., London: Sage. Read chapter 10, ‘Making good sense: drawing and verifying conclusions’, pp. 245-287.
 
-* Gelman, A. and Hill, J. (2007) *Data Analysis using Regression and Multilevel/Hierarchical Models.* Cambridge University Press.
-   * The best general regression textbook, with detailed discussion of model diagnostics
+* Strauss, A.L. and Corbin, J. (1998) *Basics of Qualitative Research: Techniques and procedures for developing grounded theory*, 2nd ed., Thousand Oaks, CA: Sage.
+   * Access 3rd edition ebook via iDiscover
+
+* Becker, H.S. (1998) *Tricks of the Trade: How to think about your research while you’re doing it*, Chicago, IL: Chicago University Press.
+Ritchie, J., Lewis, J., McNaughton Nicholls, C. and Ormston, R. (2014) Qualitative Research Practice: A guide for social science students and researchers, 2nd ed., London: Sage.
+
+* Charmaz, K. (2014) *Constructing Grounded Theory: A practical guide through qualitative analysis*, London: Sage Publications.
+
+* Silverman, D. (2010) *Doing Qualitative Research: A practical handbook*, London: Sage. Read part 3.
+
+* Weaver, B. (2016) *Offending and Desistance*, London: Routledge.  Read Annex, Research Methods.
+   * Access ebook via iDiscover
+   
+* Hulley, S and Young, T (2022) ‘Body Map Storytelling: Exploring identity with lifers convicted of murder using the doctrine of 'joint enterprise'.’ *Prison Service Journal* (261).
+
+* Thomas, P. C. , McNeill, F. , Cathcart Froden, L., Collinson Scott, J., Escobar, O. and Urie, A. (2021) ‘Re-writing punishment? Songs and narrative problemsolving’. *Incarceration*, 2(1), (doi: 10.1177/26326663211000239)
+
+* Levell, J. (2022) B*oys, Domestic Abuse and Gang Involvement: Violence at Home, Violence On-Road.* Bristol University Press.
+

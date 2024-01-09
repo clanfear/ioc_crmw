@@ -1,31 +1,34 @@
 ---
-title: "Seminar 8: Writing Up Qualitative Research"
-description: "Developing skills in presenting qualitative research"
-author: "Ailie Rennie"
-date: "2023-03-17"
+title: "Seminar 8: Conducting Observations and Ethnography"
+description: "Practicing observational methods"
+author: "Alexandra Wigzell"
+date: "2024-03-14"
 draft: false
 ---
 
+Lecture slides on Moodle
+
 Required reading:
 
-* Wolcott, H.F. (2009) *Writing Up Qualitative Research*, 3rd ed., Los Angeles, CA: Sage.
-   * Read chapter 2, ‘Get Going’, pp. 9-44. Other chapters are also useful. 
-   * Access ebook via iDiscover 
-
-* White, C.,  Woodfield, K.,  Ritchie, J. and Ormston, R.  (2014) ’Writing up qualitative research’ in  Ritchie, J.,  Lewis, J., McNaughton Nicholls, C. and Ormston, R. *Qualitative Research Practice: a guide for Social Science Students and Researchers*. London: Sage Publications.  
-   * Access reading via Moodle 
-
-* Alvermann, D. E., O'Brien, D. G., and Dillon, D. R. (1996) ‘On writing qualitative research’, *Reading Research Quarterly*, 31(1), 114-120.
-   * Access via JSTOR
+* Hammersley, M. and Atkinson, P. (1995) *Ethnography: Principles in practice*, 2nd ed., London: Routledge.
+   * Read chapter 4, ‘Field relations’, pp.80-123.
+   * Access reading via Moodle
 
 Further reading:
 
-* Coffey, A. and Atkinson, P. (1996) *Making Sense of Qualitative Data: Complementary research strategies*, Thousand Oaks, CA: Sage. Read chapter 5, ‘Writing and representation’, pp. 108-138. 
+* Wincup, E. (2017) ‘Ethnography’, in E.Wincup (ed) *Criminological Research: Understanding Qualitative Methods*, 2nd ed., London: SAGE Publications, pp. 113-128.
 
-* Holliday, A, (2016) *Doing and Writing Qualitative Research*, 3rd edition, London: Sage.
 
-* Krause, M. (2016) ‘The meanings of theorizing’, *British Journal of Sociology*, 67(1), 23-29. https://doi.org/10.1111/1468-4446.12187_4
+* Coffey, A. (2018) Doing Ethnography, Los Angeles, CA: Sage Publications.
+Access ebook via iDiscover
 
-* Mills, C. Wright (1959) *The Sociological Imagination*, Oxford: Oxford University Press
-   * Access ebook via iDiscover
+* Ferrell, J. and Hamm, M.S. (1998) *Ethnography at the Edge: Crime, deviance, and field research*, Boston, MA: Northeastern University Press.
+Access ebook via iDiscover
+
+* Travers, M., Putt, J. and Howard-Wagner, D. (eds) (2013) *Current Issues in Criminal Justice*, 25 (1): 463-469, DOI: 10.1080/10345329.2013.12035973
+
+* Crewe, B. (2006) ‘Prison drug dealing and the ethnographic lens’, *The Howard Journal of Criminal Justice*, 45(4): 347-368.
+https://doi.org/10.1111/j.1468-2311.2006.00428.x
+
+
 

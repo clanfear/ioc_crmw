@@ -13,14 +13,13 @@ Thursday 11:00-13:00
 <br>Law LG17
 :::
 
-::: {.g-col-4}
+::: {.g-col-3}
 &nbsp;
 :::
 
-::: {.g-col-4}
+::: {.g-col-5}
 Charles C. Lanfear<br> [cl948\@cam.ac.uk](cl948@cam.ac.uk "Email")<br>Office 3.9, drop-in times:<br>
--- Monday, 13:00-14:00<br>
--- Thursday, 14:00-15:00
+-- Tuesday & Thursday, 13:00-14:00
 :::
 
 :::
