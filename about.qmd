@@ -10,7 +10,7 @@ title-block-banner: true
 
 ::: {.g-col-4}
 Thursday 11:00-13:00
-<br>Law LG17
+<br>IoC Basement
 :::
 
 ::: {.g-col-3}
@@ -23,6 +23,8 @@ Charles C. Lanfear<br> [cl948\@cam.ac.uk](cl948@cam.ac.uk "Email")<br>Office 3.9
 :::
 
 :::
+
+Required units will be held in the Institute's basement seminar rooms. Optional units will be held in the basement computer lab.
 
 
 # Materials
