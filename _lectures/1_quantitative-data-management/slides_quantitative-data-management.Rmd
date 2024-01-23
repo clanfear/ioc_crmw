@@ -2,7 +2,7 @@
 title: "Quantitative Data Management"
 subtitle: "CRMW Workshop 2"
 author: "Charles Lanfear"
-date: "2 Feb 2023<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+date: "25 Jan 2024<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
 output:
   xaringan::moon_reader:
     css: "../assets/cam-css.css"
@@ -190,16 +190,4 @@ class: inverse
 * Data management is the hardest and most time consuming part of any project
 * You get good with **practice** and **intentional improvement**
 
-### Strike Dates
-
-```{r, echo = FALSE}
-tibble::tribble(
-  ~Unit,           ~ Lecturer,           ~ Strike, ~Reschedule,
-  "Ethnography",   "Dr S. Doxat-Pratt" , "9 Feb",  "8 Feb (Wed)",
-  "Regression",    "Chuck" ,             "16 Feb", "None",
-  "Qual Coding",   "D. Przybylska" ,     "23 Feb", "24 Feb (Fri)",
-  "Quant Writing", "Chuck" ,             "2 Mar",  "None",
-  "Qual Writing",  "A. Rennie",          "16 Mar", "17 Mar (Fri)"
-        ) |> knitr::kable()
-```
 

@@ -3,8 +3,8 @@ library(janitor)
 library(readxl)
 
 # First challenge: Multiple files
-
-metro_2022_raw <- read_csv(list.files("./_lectures/2_quantitative-data-management/data/", pattern = "metropolitan", recursive = TRUE, full.names = TRUE))
+metro_files <- list.files("./_lectures/1_quantitative-data-management/data/", pattern = "metropolitan", recursive = TRUE, full.names = TRUE)
+metro_2022_raw <- read_csv(metro_files)
 
 glimpse(metro_2022_raw)
 
@@ -21,14 +21,17 @@ glimpse(metro_2021_crime)
 
 #London has 4,835 LSOAs so we have some extras!
 
-density_2019_raw <- read_excel("./_lectures/2_quantitative-data-management/data/land-area-population-density-lsoa11-msoa11.xlsx", sheet = 2)
+density_2019_raw <- read_excel("./_lectures/1_quantitative-data-management/data/land-area-population-density-lsoa11-msoa11.xlsx", sheet = 2)
 
 glimpse(density_2019_raw)
 density_2019 <- density_2019_raw |>
   clean_names() |> 
   select(lsoa = lsoa11_code, density = people_per_sq_km)
 
-deprivation_2019_raw <- read_csv("./_lectures/2_quantitative-data-management/data/imd2019lsoa.csv")
+glimpse(density_2019)
+
+deprivation_2019_raw <- read_csv("./_lectures/1_quantitative-data-management/data/imd2019lsoa.csv")
+
 glimpse(deprivation_2019_raw)
 
 deprivation_2019 <- deprivation_2019_raw |>
@@ -39,6 +42,8 @@ deprivation_2019 <- deprivation_2019_raw |>
   select(lsoa = feature_code, index, value) |>
   pivot_wider(names_from = index, values_from = value) |>
   clean_names()
+
+glimpse(deprivation_2019)
 
 # Why are some missing from crime data?
 
