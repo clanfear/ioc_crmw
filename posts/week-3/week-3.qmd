@@ -1,6 +1,6 @@
 ---
 title: "Seminar 3: Applied Regression Analysis"
-subtitle: "**Optional for Crim 1 students**<br>(Cancelled due to strike)"
+subtitle: "**Optional for Crim 1 students**"
 description: "Practicing linear regression"
 author: "Charles Lanfear"
 date: "2024-02-08"
