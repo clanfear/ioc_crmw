@@ -4,8 +4,9 @@
     <title>Writing Up Quantitative Research</title>
     <meta charset="utf-8" />
     <meta name="author" content="Charles Lanfear" />
-    <script src="libs/header-attrs-2.20/header-attrs.js"></script>
-    <link href="libs/tabwid-1.1.2/tabwid.css" rel="stylesheet" />
+    <script src="libs/header-attrs-2.23/header-attrs.js"></script>
+    <link href="libs/tabwid-1.1.3/tabwid.css" rel="stylesheet" />
+    <script src="libs/tabwid-1.1.3/tabwid.js"></script>
     <link rel="stylesheet" href="../assets/cam-css.css" type="text/css" />
   </head>
   <body>
@@ -22,7 +23,7 @@ class: center, top, title-slide
 ### Charles Lanfear
 ]
 .date[
-### 2 Mar 2023<br>Updated: 01 Mar 2023
+### 1 Feb 2024<br>Updated: 31 Jan 2024
 ]
 
 ---
@@ -33,41 +34,17 @@ class: center, top, title-slide
 
 # Today
 
-## Writing in General
+## Quant Writing
 
 ## Describing Methods
 
 ## Presenting Results
 
---
-
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-
-.text-center[
-*But first...*
-]
-
 ---
 
 class: inverse
 
-.text-big-center[
-Sign up for interviews
-]
-
-.text-center[
-Attendance **will not count** without participation
-
-Participation requires **signing up**
-]
-
----
-
-class: inverse
-
-# Writing
+# Quant Writing
 
 &lt;br&gt;
 
@@ -81,103 +58,40 @@ Professional (academic) writing is purposeful **communication** to an audience
 
 --
 
-.pull-left[
 * Know the purpose
+* Know the audience
 
-   + Argument
-   + Description
-   + Theoretical test
-   + Policy evaluation
+--
+
+
+.pull-left[
+*To show other academics that results from an experiment falsify a proposition of a theory*
+]
+.pull-right[
+*To explain to policy-makers that a policy was not effective in reducing crime*
 ]
 
 --
 
-.pull-right[
-* Know the audience
+* Remember:
 
-   + Examiners (e.g., essay or thesis)
-   + Academics (e.g., journal)
-   + Policy actors (e.g., policy brief)
-   + Lay people (e.g., public scholarship)
-]
+   * **Clarity comes first**
+   * Numbers can easily overwhelm or mislead
+   * Numbers are boring—people only care about what they describe
+
 
 --
 
 .text-center[
-*Everything you write should serve your purpose and be understood by your audience*
-]
-
-
----
-
-## When you write
-
-.pull-left[
-* **Clarity comes first**
-
-   * *Do not write so you can be understood, but so that so you cannot be misunderstood*
-]
-
-.pull-right[
-![](img/books_cropped.jpg)
-]
-
----
-count:false
-
-## When you write
-
-.pull-left[
-* **Clarity comes first**
-
-   * *Do not write so you can be understood, but so that so you cannot be misunderstood*
-
-* **Read** good books on writing &amp;rarr;
-
-* **Read** and emulate good writers
-
-* **Read** your work out loud
-
-   * *Good writing seems natural*
-]
-
-.pull-right[
-![](img/books_cropped.jpg)
-]
-
----
-count:false
-
-## When you write
-
-.pull-left[
-* **Clarity comes first**
-
-   * *Do not write so you can be understood, but so that so you cannot be misunderstood*
-
-* **Read** good books on writing &amp;rarr;
-
-* **Read** and emulate good writers
-
-* **Read** your work out loud
-
-   * *Good writing seems natural*
-
-* Have others read your work
-
-   * *When someone says something is confusing they are always right*
-]
-
-.pull-right[
-![](img/books_cropped.jpg)
+*Everything you write should serve your purpose and be understood by your audience—numbers included*
 ]
 
 ---
 
-## Empirical papers: Matsueda (2019)
+## Matsueda (2019)
 
 .pull-left-70[
-* Empirical, especially quantitative, writing has a common structure
+* Quantitative articles have a common structure
    + Efficient communication—*deviate at your peril*
    + **Hourglass** shape
       * Start with big picture
@@ -264,6 +178,8 @@ class: inverse
 
 ![:width 80%](img/klm.png)
 
+.footnote[[Knox, Lowe, &amp; Mummulo (2020)](https://doi.org/10.1017/S0003055420000039)]
+
 ---
 
 ## What to Include
@@ -302,6 +218,10 @@ From me:
 * **Lean on references**
 
    + "Following Sampson et al. (1997), I..."
+
+* **Compartmentalize**
+
+   + *Make it easy to skip the scary stuff*
 
 * **Do not oversell**
 ]
@@ -376,21 +296,64 @@ From me:
 
 * **Estimand**: the real-world quantity we want to measure
 
-   + Your **literature review** justifies interest in the estimand; specify it in **methods**
+   + Your **literature review** justifies interest in the estimand
+
+]
+
+.pull-right-40[
+![:width 75%](img/estimation1.png)
+]
+
+.footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
+
+---
+count: false
+## Communicate the three quantities
+
+
+.pull-left-60[
+
+* **Estimand**: the real-world quantity we want to measure
+
+   + Your **literature review** justifies interest in the estimand
 
 
 * **Estimator**: the procedure we use to calculate the estimate using data
 
-   + Your **methods section** justifies the use of the estimator
+   + Your **methods section** explains and justifies the use of the estimator
+
+]
+
+.pull-right-40[
+![:width 75%](img/estimation2.png)
+]
+
+.footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
+
+---
+count: false
+## Communicate the three quantities
+
+
+.pull-left-60[
+
+* **Estimand**: the real-world quantity we want to measure
+
+   + Your **literature review** justifies interest in the estimand
+
+
+* **Estimator**: the procedure we use to calculate the estimate using data
+
+   + Your **methods section** explains and justifies the use of the estimator
 
 
 * **Estimate**: the calculated quantity approximating our estimand
 
-   + Your **results section** presents these, under the assumption your estimator is correct
+   + Your **results section** presents this, under the assumption your estimator is correct
 ]
 
 .pull-right-40[
-![:height 500px](img/estimation.png)
+![:width 75%](img/estimation.png)
 ]
 
 .footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
@@ -403,11 +366,10 @@ class: inverse
 # Presenting Results
 
 &lt;br&gt;
-&lt;br&gt;
 
-![:width 80%](img/fig-2-survival-curves.png)
+![:width 85%](img/fig-2-survival-curves.png)
 .footnote[
-[1] Source: Lanfear, Bucci, Sampson, &amp; Kirk (Under review)
+[1] Source: [Lanfear, Bucci, Sampson, &amp; Kirk (2023)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2804655)
 ]
 
 ---
@@ -496,10 +458,10 @@ For values in text (and tables)...
 
 --
 
-&lt;br&gt;
+* 
 
 .text-center[
-*Present only numbers that serve your objective and are meaningful to your audience*
+*Present only numbers that are related to your objective and meaningful to your audience*
 ]
 
 ---
@@ -553,7 +515,7 @@ Highlighting big hooks:
 &gt; Race and ethnic differences in exposure to firearm violence are pronounced, with both forms of exposure highest for Black respondents (Figure 2A). By age 40, an estimated 7.47% of Black and 7.05% of Hispanic respondents had been shot, with one Black and one Hispanic respondent fatally shot. In contrast, an estimated 3.13% of White respondents were victims of a shooting by age 40.&lt;sup&gt;1&lt;/sup&gt;
 
 .footnote[
-[1] Lanfear, Bucci, Sampson, &amp; Kirk (Under review)&lt;br&gt;&amp;nbsp;
+[1] [Lanfear, Bucci, Sampson, &amp; Kirk (2023)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2804655)&lt;br&gt;&lt;br&gt;
 ]
 
 --
@@ -622,53 +584,7 @@ Source: APA Publication Manual, 7th Ed.
 ---
 ## An example
 
-&lt;template id="45f9f46b-f43b-4e38-8b28-41e869651e5c"&gt;&lt;style&gt;
-.tabwid table{
-  border-spacing:0px !important;
-  border-collapse:collapse;
-  line-height:1;
-  margin-left:auto;
-  margin-right:auto;
-  border-width: 0;
-  border-color: transparent;
-  caption-side: top;
-}
-.tabwid-caption-bottom table{
-  caption-side: bottom;
-}
-.tabwid_left table{
-  margin-left:0;
-}
-.tabwid_right table{
-  margin-right:0;
-}
-.tabwid td, .tabwid th {
-    padding: 0;
-}
-.tabwid a {
-  text-decoration: none;
-}
-.tabwid thead {
-    background-color: transparent;
-}
-.tabwid tfoot {
-    background-color: transparent;
-}
-.tabwid table tr {
-background-color: transparent;
-}
-.katex-display {
-    margin: 0 0 !important;
-}
-&lt;/style&gt;&lt;div class="tabwid"&gt;&lt;style&gt;.cl-851f4554{}.cl-8515984c{font-family:'Arial';font-size:16pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8519a6ee{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8519bd32{width:1.5in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8519bd3c{width:1.2in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8519bd46{width:1.5in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8519bd47{width:1.2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}&lt;/style&gt;&lt;table data-quarto-disable-processing='true' class='cl-851f4554'&gt;&lt;thead&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;th  colspan="4"class="cl-8519bd32"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Table 1. Actions by treatment condition&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;th class="cl-8519bd32"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Condition&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-8519bd3c"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Walk-By&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-8519bd3c"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Mail&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-8519bd3c"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Theft&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td  rowspan="2"class="cl-8519bd46"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Control&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;1496&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;176&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;28&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;88.0%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;10.4%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt; 1.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td  rowspan="2"class="cl-8519bd32"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;Treatment&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;1617&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;136&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd47"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;28&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-8519bd3c"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt;90.8%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd3c"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt; 7.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8519bd3c"&gt;&lt;p class="cl-8519a6ee"&gt;&lt;span class="cl-8515984c"&gt; 1.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/template&gt;
-&lt;div class="flextable-shadow-host" id="f6d8ed39-b6fc-43ee-a77f-4aac419b3a78"&gt;&lt;/div&gt;
-&lt;script&gt;
-var dest = document.getElementById("f6d8ed39-b6fc-43ee-a77f-4aac419b3a78");
-var template = document.getElementById("45f9f46b-f43b-4e38-8b28-41e869651e5c");
-var fantome = dest.attachShadow({mode: 'open'});
-var templateContent = template.content;
-fantome.appendChild(templateContent);
-&lt;/script&gt;
+&lt;div class="tabwid"&gt;&lt;style&gt;.cl-8d4bdb88{}.cl-8d414d80{font-family:'Arial';font-size:16pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8d45c6c6{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8d45e3cc{width:1.5in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8d45e3cd{width:1.2in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8d45e3d6{width:1.5in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8d45e3d7{width:1.2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}&lt;/style&gt;&lt;table data-quarto-disable-processing='true' class='cl-8d4bdb88'&gt;&lt;thead&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;th  colspan="4"class="cl-8d45e3cc"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Table 1. Actions by treatment condition&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;th class="cl-8d45e3cc"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Condition&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-8d45e3cd"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Walk-By&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-8d45e3cd"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Mail&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th class="cl-8d45e3cd"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Theft&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td  rowspan="2"class="cl-8d45e3d6"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Control&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;1496&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;176&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;28&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;88.0%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;10.4%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt; 1.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td  rowspan="2"class="cl-8d45e3cc"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;Treatment&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;1617&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;136&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3d7"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;28&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-8d45e3cd"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt;90.8%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3cd"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt; 7.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-8d45e3cd"&gt;&lt;p class="cl-8d45c6c6"&gt;&lt;span class="cl-8d414d80"&gt; 1.6%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
 **Causal** design:
 
@@ -709,21 +625,49 @@ fantome.appendChild(templateContent);
 
 ---
 
-## An Example
-
-.pull-left[
-![:width 100%](img/fig-e2-aft-model-results.png)
+.pull-left-40[
+![:width 100%](img/fig-3-model-results.png)
 ]
-.pull-right[
-.text-85[
-eFigure 2: Interval Censored Accelerated Failure Time Models
+.pull-right-60[
+.text-72[
+## An example!
 
-Squares represent acceleration factor point estimates from AFT models that relax the proportional hazards assumption of the main text SPT proportional hazards models. AFT estimates may be sensitive to the distribution chosen, so four different parametric specifications are presented. Results are similar across all specifications but the best fit by AIC is obtained from the log-normal model in all panels except A, where the log-logistic specification is preferred.
+Figure 3. Model Estimates of Disparities in Exposure to Gun Violence to Age 40
+
+Hazard ratios (HR) and incidence rate ratios (IRR) greater than 1 indicate higher estimated exposure to gun violence. HRs were estimated with a semi-parametric Turnbull proportional hazards model. IRRs were estimated with a negative binomial regression. Models are weighted to permit generalizing estimates of exposure to the population of children coming of age in Chicago in the 1990s. Case weights applied during estimation are constructed from a combination of original survey design weights and weights for attrition constructed using predictions from binary logistic regression models. The final weights used in the analysis are the product of the survey design weights and attrition weights at each wave. Observations receive the combined weight at their final follow-up period (e.g., an individual observed through wave 3 would receive a weight equal to the product of the survey design weight, their wave 2 attrition weight, and their wave 3 attrition weight). Results are insensitive to trimming weights to the center 90% of the distribution. Results are also similar as alternative specifications of survival models (see eFigure 2) and without weights (see eFigure 3). Sample sizes are 2,417 for seen shot, 2,135 for been shot, and 649 for nearby shootings.
 ]
 ]
 
-.footnote[
-[1] Source: Lanfear, Bucci, Sampson, &amp; Kirk (Under review)
+.footnote[Source: Lanfear, Bucci, Sampson, &amp; Kirk (2023)]
+
+
+
+
+---
+
+## Put plots in tables!
+
+![:width 50%](img/ce-be.png)
+
+.footnote[Source: [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)]
+
+
+
+---
+
+## Use visual examples!
+
+
+![:width 60%](img/maps-plot.png)
+
+.text-72[
+Figure 4.  Frequency of Nearby Shootings in the Past Year by Respondent Race 
+
+A, C, and E depict race-specific quintiles of frequencies of shootings within 250 m of respondents' residence in the past year. B, D, and F depict representative locations with counts of nearby shootings approximately equal to the mean of each group's fifth quintile (7 shootings for Black respondents, 2 shootings for Hispanic respondents, and 1 shooting for White respondents). Red dots are shootings. Circles are 250-m radii around respondent places of residence but are shifted to protect anonymity. Only race differences are shown because nearby shooting frequencies did not notably differ by sex or age cohort. Analysis was restricted to Black, Hispanic, and White respondents of wave 5 (649 respondents). Map tiles by Stamen Design; map data by OpenStreetMap (OpenStreetMap Foundation).
+]
+
+.pull-right-70[
+.footnote[Source: Lanfear, Bucci, Sampson, &amp; Kirk (2023)]
 ]
 
 ---
@@ -741,33 +685,6 @@ Squares represent acceleration factor point estimates from AFT models that relax
 
 * Without programming
 ]
-
-
-
----
-
-## Put plots in tables!
-
-![:width 50%](img/ce-be.png)
-
-.footnote[Source: [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)]
-
----
-
-.pull-left-40[
-![:width 100%](img/fig-3-model-results.png)
-]
-.pull-right-60[
-.text-72[
-## Describe in detail!
-
-Figure 3. Model Estimates of Disparities in Exposure to Gun Violence to Age 40
-
-Hazard ratios (HR) and incidence rate ratios (IRR) greater than 1 indicate higher estimated exposure to gun violence. HRs were estimated with a semi-parametric Turnbull proportional hazards model. IRRs were estimated with a negative binomial regression. Models are weighted to permit generalizing estimates of exposure to the population of children coming of age in Chicago in the 1990s. Case weights applied during estimation are constructed from a combination of original survey design weights and weights for attrition constructed using predictions from binary logistic regression models. The final weights used in the analysis are the product of the survey design weights and attrition weights at each wave. Observations receive the combined weight at their final follow-up period (e.g., an individual observed through wave 3 would receive a weight equal to the product of the survey design weight, their wave 2 attrition weight, and their wave 3 attrition weight). Results are insensitive to trimming weights to the center 90% of the distribution. Results are also similar as alternative specifications of survival models (see eFigure 2) and without weights (see eFigure 3). Sample sizes are 2,417 for seen shot, 2,135 for been shot, and 649 for nearby shootings.
-]
-]
-
-.footnote[Source: Lanfear, Bucci, Sampson, &amp; Kirk (Under review)]
 
 
 ---
@@ -805,36 +722,23 @@ class: inverse
 # Moving Forward
 
 .pull-left[
-Read books on:
+* Read books on:
 
-* Writing
-* Presenting results
+   * Writing in general
+   * Writing with numbers
+   * Making figures
 
-Read articles
+* Read articles
 
-* Pay attention to **style** in addition to content
-* Take note of effective figures
+   * Pay attention to **style** in addition to content
+   * Take note of effective figures and tables
 
-**Practice!**
+* **Practice!**
 
 
 ]
 .pull-right-40[
 ![](img/miller.jpg)
-]
-
----
-
-class: inverse
-
-.text-big-center[
-Sign up for interviews
-]
-
-.text-center[
-Attendance **will not count** without participation
-
-Participation requires **signing up**
 ]
 
     </textarea>
