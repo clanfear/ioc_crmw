@@ -2,8 +2,44 @@ library(tidyverse)
 library(janitor)
 library(readxl)
 
+
+# ACTIVITY
+
+library(tidyverse)
+library(janitor)
+file_names <- list.files("data/raw/crime/", 
+                         recursive = TRUE, 
+                         full.names = TRUE)
+file_names
+metro_2022_raw <- read_csv(file_names)
+metro_2022 <- metro_2022_raw |> 
+  clean_names() |> 
+  filter(crime_type %in% c("Robbery", "Burglary")) |>
+  count(lsoa_code, crime_type) |>
+  pivot_wider(names_from = crime_type,
+              values_from = n) |>
+  clean_names()
+metro_2022
+save(metro_2022, file = "data/derived/metro_2022.RData")
+
+library(tidyverse)
+list.files("data/raw")
+deprivation_raw <- read_csv("data/raw/imd2019lsoa.csv")
+glimpse(deprivation_raw)
+deprivation_raw |> count(`Indices of Deprivation`)
+deprivation_raw |> pull(FeatureCode) |> n_distinct()
+deprivation <- deprivation_raw |>
+  clean_names() |>
+  filter(measurement == "Score" &
+           indices_of_deprivation == "b. Income Deprivation Domain") |>
+  select(lsoa_code = feature_code, income_deprivation = value)
+save(deprivation, file = "data/derived/deprivation.RData")
+
+
+# OLD
+
 # First challenge: Multiple files
-metro_files <- list.files("./_lectures/1_quantitative-data-management/data/", pattern = "metropolitan", recursive = TRUE, full.names = TRUE)
+metro_files    <- list.files("./_lectures/1_quantitative-data-management/data/", pattern = "metropolitan", recursive = TRUE, full.names = TRUE)
 metro_2022_raw <- read_csv(metro_files)
 
 glimpse(metro_2022_raw)
@@ -44,12 +80,3 @@ deprivation_2019 <- deprivation_2019_raw |>
   clean_names()
 
 glimpse(deprivation_2019)
-
-# Why are some missing from crime data?
-
-london_data <- density_2019 |>
-  left_join(metro_2022_crime) |>
-  inner_join(deprivation_2019)
-
-
-metro_2022 

@@ -9,6 +9,8 @@ draft: false
 
 [Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/slides_applied-regression-analysis.html)
 
+Data processing script to get started (coming soon)
+
 Required reading:
 
 * Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)

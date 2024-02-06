@@ -15,6 +15,13 @@ Data for lab:
 * [LSOA Indices of Deprivation (.csv)](https://clanfear.github.io/ioc_crmw/_data/imd2019lsoa.csv)
 * [LSOA Population Density (.xlsx)](https://clanfear.github.io/ioc_crmw/_data/land-area-population-density-lsoa11-msoa11.xlsx)
 
+In-class code:
+
+* [`1_process-metro.R`](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/activity/code/1_process-metro.R)
+* [`2_process-deprivation.R`](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/activity/code/2_process-deprivation.R)
+
+*Note: We did not finish the activity, so in week 3 we will begin with a pre-made processing script!*
+
 Required readings:
 
 * Quartz. *The Quartz guide to bad data.* https://github.com/Quartz/bad-data-guide
