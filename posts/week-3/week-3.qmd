@@ -7,14 +7,14 @@ date: "2024-02-08"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/slides_applied-regression-analysis.html)
+There are no lecture slides; 100% activity today!
 
 To get started:
 
 1. [Download this zipped project scaffold on to your computer](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/applied-regression_activity.zip)
 2. Unzip it where you keep your coursework
-3. Double-click the applied-regression_activity.Rproj to open the project
-4. Run the processing scripts in the project's `syntax` folder to get the data download and assembled
+3. Double-click the `applied-regression_activity.Rproj` to open the project
+4. Run the processing scripts in the project's `syntax/` folder to get the data download and assembled
 
 Required reading:
 

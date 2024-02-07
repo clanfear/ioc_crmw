@@ -20,7 +20,7 @@ In-class code:
 * [`1_process-metro.R`](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/activity/code/1_process-metro.R)
 * [`2_process-deprivation.R`](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/activity/code/2_process-deprivation.R)
 
-*Note: We did not finish the activity, so in week 3 we will begin with a pre-made processing script!*
+*Note: We did not finish the activity, so in week 3 we will use a pre-built project scaffold!*
 
 Required readings:
 
