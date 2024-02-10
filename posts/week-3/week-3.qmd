@@ -16,6 +16,12 @@ To get started:
 3. Double-click the `applied-regression_activity.Rproj` to open the project
 4. Run the processing scripts in the project's `syntax/` folder to get the data download and assembled
 
+Scripts from in-class:
+
+* [`4_join-data.R`](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/in-class_scripts/4_join-data.R)
+* [`5_visualisation.R`](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/in-class_scripts/5_visualisation.R)
+* [`6_modeling.R`](https://clanfear.github.io/ioc_crmw/_lectures/3_applied-regression-analysis/in-class_scripts/6_modeling.R)
+
 Required reading:
 
 * Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)
