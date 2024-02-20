@@ -1,8 +1,8 @@
 ---
 title: "Reproducible Research"
-subtitle: "CRMW Lecture 1"
+subtitle: "CRMW Lecture 5"
 author: "Charles Lanfear"
-date: "26 Jan 2023<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+date: "22 Feb 2024<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
 output:
   xaringan::moon_reader:
     css: "../assets/cam-css.css"
@@ -173,7 +173,7 @@ For academic papers, degrees of reproducibility vary:
 
 --
 
-Interactive documents allow a reader to examine your computational methods within the document itself; in effect, they are self-documenting.
+Literate programming allows a reader to examine your computational methods within the document itself.
 
 --
 
@@ -183,9 +183,9 @@ By re-running the code, they reproduce your results on demand.
 
 Common Platforms:
 
- * R Markdown
- * Jupyter Notebooks
- * Quarto
+ * R Markdown (R *mostly*)
+ * Jupyter Notebooks (Python)
+ * **Quarto** (R, Python, Julia)
 
 --
 
@@ -196,7 +196,7 @@ Common Platforms:
 ---
 ## Research Compendia
 
-A **research compendium** is a portable, reproducible distribution of an article or other project.
+A **research compendium** is a portable, reproducible distribution of a project.
 
 --
 
@@ -208,16 +208,17 @@ Research compendia feature:
 
 * Clear separation of data, method, and output. *Data are read only*.
 
-* A well-documented or even *preserved* computational environment (e.g. Docker)
+* Well-documented or even *preserved* computational environment (e.g. Docker)
 
 --
 
 Compendia are commonly managed via git repositories:
 
-* Ex: [Lanfear, Charles C. (2022). Repository of R code and data for ‘Collective Efficacy the Built Environment.'](https://github.com/clanfear/built_environment_ce)
+* Ex: [Lanfear, C. C. (2022). Repository of R code and data for ‘Collective Efficacy the Built Environment.'](https://github.com/clanfear/built_environment_ce)
 
---
+Or on platforms like Harvard's Dataverse:
 
+* Ex: [Lanfear, C. C., Bucci, R., Kirk, D. S., Sampson, R. J. (2023) "Reproduction Files for: Inequalities in Exposure to Firearm Violence by Race, Sex, and Birth Cohort from Childhood to Age 40 Years, 1995-2021."](https://doi.org/10.7910/DVN/YWZL5K)
 
 ---
 
@@ -239,7 +240,7 @@ Quarto and R Markdown's [`bookdown`](https://bookdown.org/yihui/bookdown/) gener
 
 --
 
-* Generate publication-ready `.html` or `.pdf` documents at the same time:
+* Generate submission-ready `.docx` or publication-ready `.html` or `.pdf` documents at the same time:
 
    * Ex: [R for Data Science](https://r4ds.had.co.nz/)
    * Ex: [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
@@ -488,19 +489,20 @@ Quarto and R Markdown are powerful tools:
 * **The new hotshot**
 * Easier setup for references and complex documents
 * Works with R *and* Python *and* Julia
-* [Great reveal.js slides](https://clanfear.github.io/UW_2022-12-09/slides/exposures_slides.html)
+* [Beautiful reveal.js slides](https://clanfear.github.io/UW_2022-12-09/slides/exposures_slides.html)
 * New, so...
    * Less online support
    * More bugs
-   * Fewer speciality formats
+   * Fewer specialty formats
 ]
 
-.pull-left[
+.pull-right[
 ### R Markdown
 
 * **The old warhorse**
 * Every imaginable format, provided some setup
 * Mainly R
+* [Powerful Xaringan slides](https://clanfear.github.io/ioc_crmw/_lectures/5_reproducible-research/slides_reproducible-research.html)
 * Old, so...
    * Better support
    * Fewer, weirder bugs
@@ -631,7 +633,6 @@ Quarto headers have autocomplete!
   1. Even with sublists
   1. Or when lazy with numbering
 
-
 * Unordered lists
 * Are also real easy
   + Also even with sublists
@@ -759,9 +760,9 @@ summary(cars)
 
 # Chunk Labels
 
-You can label chunks in the chunk header or the `label:` option<sup>1M/sup>
+You can label chunks in the chunk header or the `label:` option<sup>1</sup>
 
-.footnote[Chunks need *unique* labels or you'll get an error!]
+.footnote[[1] Chunks need *unique* labels or you'll get an error!]
 
 ````{verbatim}
 ```{r summarize-cars-1}
@@ -795,9 +796,15 @@ We cab insert values directly into our text using code in backticks starting wit
 library(knitr)
 ```
 
+*Write this in your Quarto doc:*
 
-    Four score and seven years ago is the same as `r inline_expr("4*20 + 7", "md")` years.
---
+```{verbatim}
+Four score and seven years ago is the same as 
+`r inline_expr("4*20 + 7", "md")` years.
+```
+
+*And you'll get this in your output doc:*
+
 Four score and seven years ago is the same as `r 4*20 + 7` years.
 
 --
@@ -807,10 +814,14 @@ Maybe we've saved a variable in a chunk we want to reference in the text:
 ```{r}
 x <- sqrt(77) # <- is how we assign objects
 ```
+
 --
 
-    The value of `x` rounded to the nearest two decimals is `r inline_expr("round(x, 2)", "md")`.
---
+```{verbatim}
+The value of `x` rounded to the nearest two decimals is 
+`r inline_expr("round(x, 2)", "md")`.
+```
+
 The value of `x` rounded to the nearest two decimals is `r round(x, 2)`.
 
 ---
@@ -879,17 +890,4 @@ class: inverse
 
 * Use Quarto docs for your projects!
 * [Visit tutorials](https://quarto.org/docs/get-started/hello/rstudio.html)
-
-### Strike Dates
-
-```{r, echo = FALSE}
-tibble::tribble(
-  ~Unit,           ~ Lecturer,           ~ Strike, ~Reschedule,
-  "Ethnography",   "Dr S. Doxat-Pratt" , "9 Feb",  "8 Feb (Wed)",
-  "Regression",    "Chuck" ,             "16 Feb", "None",
-  "Qual Coding",   "D. Przybylska" ,     "23 Feb", "24 Feb (Fri)",
-  "Quant Writing", "Chuck" ,             "2 Mar",  "None",
-  "Qual Writing",  "A. Rennie",          "16 Mar", "17 Mar (Fri)"
-        ) |> knitr::kable()
-```
-
+* Download a compendium and try to replicate results
