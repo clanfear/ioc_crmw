@@ -1,33 +1,33 @@
 ---
-title: "Seminar 2: Writing Up Quantitative Research"
-description: "Basic guidelines for presenting quantitative data and results"
+title: "Seminar 2: Reproducible research and project organization"
+subtitle: "**Optional for Crim 1 students**"
+description: "Good practices for scientific computing"
 author: "Charles Lanfear"
-date: "2024-02-01"
+date: "2025-02-06"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/2_writing-up-quantitative-research/slides_writing-up-quantitative-research.html)
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/reproducible-research/slides_reproducible-research.html)
 
 Required reading:
 
-* Bryman, A. (2015) *Social Research Methods*, 5th ed., Oxford: Oxford University Press. Chapter 28.
-   * Access ebook via iDiscover
+* Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., and Teal, T.K. (2017) Good enough practices in scientific computing. *PLoS Computational Biology*, 13(6):e1005510 [https://doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
 
-* Matsueda, R. (2019) ‘Structuring a conventional empirical social science article.’ Unpublished.
-   * Access via Moodle or [here](https://clanfear.github.io/ioc_crmw/_lectures/2_writing-up-quantitative-research/reading/S6 Matsueda (2019) Structuring a conventional empirical social science article.pdf)
+* Chin, J.M., Pickett, J.T., Vazire, S., and Holcombe, A.O. (2023) ‘Questionable Research Practices and Open Science in Quantitative Criminology’. *Journal of Quantitative Criminology*, 39:21–51. https://doi.org/10.1007/s10940-021-09525-6
 
 Further reading:
 
-* Wentz, E. (2014)  *How to Design, Write, and Present a Successful Dissertation Proposal*, London: SAGE.
- https://doi.org/10.4135/9781506374710
+* Broman, K. Initial steps toward reproducible research. https://kbroman.org/steps2rr/ 
 
-* Fallon, M. (2016) *Writing up Quantitative Research in the Social and Behavioral Sciences*, Rotterdam : SensePublishers.
-   * Access ebook via iDiscover
+* Healy, K. (2019) *The plain person’s guide to plain text social science.* https://plain-text.co/
 
-* American Psychological Association (2020) *Publication Manual of the American Psychological Association : The Official Guide to APA Style*, Seventh ed., Washington, DC : American Psychological Association
+* Pridemore, W.A., Makel, M.C., and Plucker, J.A. (2018) Replication in criminology and the social sciences. *Annual Review of Criminology*, 1:19-38 https://doi.org/10.1146/annurev-criminol-032317-091849
 
-* Miller, J.E. (2015) *The Chicago Guide to Writing about Numbers* (2nd ed.). Chicago: University of Chicago Press.
+* RStudio. Introduction to R Markdown. https://rmarkdown.rstudio.com/lesson-1.html
 
-* McCloskey, D. (2019) *Economical Writing: Thirty-Five Rules for Clear and Persuasive Prose* (3rd ed.). Chicago: University of Chicago Press.
+* Xie, Y., Allaire, J.J., and Grolemund, G. (2022) *R Markdown the Definitive Guide.* CRC Press. https://bookdown.org/yihui/rmarkdown/
 
-* Becker, H.S. (2020) *Writing for Social Scientists: How to Start and Finish Your Thesis, Book, or Article* (3rd ed.). Chicago: University of Chicago Press.
+* Bryan, J. and Hester, J. *What they forgot to teach you about R.* https://rstats.wtf/
+
+
+

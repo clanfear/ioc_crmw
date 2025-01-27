@@ -1,31 +1,35 @@
 ---
-title: "Seminar 6: Writing Up Qualitative Research"
-description: "Developing skills in presenting qualitative research"
-author: "Ailie Rennie"
-date: "2024-02-29"
+title: "Seminar 6: Using language models"
+description: "Familiarising students with key concepts in LLM use"
+author: "Natalia Cabrera-Morales"
+date: "2025-03-06"
 draft: false
 ---
 
 Required reading:
 
-* Wolcott, H.F. (2009) *Writing Up Qualitative Research*, 3rd ed., Los Angeles, CA: Sage.
-   * Read chapter 2, ‘Get Going’, pp. 9-44. Other chapters are also useful. 
-   * Access ebook via iDiscover 
-
-* White, C.,  Woodfield, K.,  Ritchie, J. and Ormston, R.  (2014) ’Writing up qualitative research’ in  Ritchie, J.,  Lewis, J., McNaughton Nicholls, C. and Ormston, R. *Qualitative Research Practice: a guide for Social Science Students and Researchers*. London: Sage Publications.  
-   * Access reading via Moodle 
-
-* Alvermann, D. E., O'Brien, D. G., and Dillon, D. R. (1996) ‘On writing qualitative research’, *Reading Research Quarterly*, 31(1), 114-120.
-   * Access via JSTOR
+* Starting out
+   * Forte, J. (2024). Introduction to GPT-4o and GPT-4o mini. https://cookbook.openai.com/examples/gpt4o/introduction_to_gpt4o
+   * Sanders, T. & Heaton, M. (2022). Question answering using embeddings-based search. https://cookbook.openai.com/examples/question_answering_using_embeddings
+*Prompt engineering
+   * Open AI. Prompt Engineering. https://platform.openai.com/docs/guides/prompt-engineering
+   * Llama. Prompting. https://www.llama.com/docs/how-to-guides/prompting/
+* Embeddings
+   * Open AI. Embeddings. https://platform.openai.com/docs/guides/embeddings
+* Structuring
+   * Yurtsev, E. (2023). Kor. https://eyurtsev.github.io/kor/index.html#
+* If you are comfortable with programming:
+   * Gil Guzmán, K. (2024). Structured outputs. https://cookbook.openai.com/examples/structured_outputs_intro
+* LLM applications with LangChain
+   * IBM Technology (2024). LangChain explained. https://www.youtube.com/watch?v=1bUy-1hGZpI
 
 Further reading:
 
-* Coffey, A. and Atkinson, P. (1996) *Making Sense of Qualitative Data: Complementary research strategies*, Thousand Oaks, CA: Sage. Read chapter 5, ‘Writing and representation’, pp. 108-138. 
-
-* Holliday, A, (2016) *Doing and Writing Qualitative Research*, 3rd edition, London: Sage.
-
-* Krause, M. (2016) ‘The meanings of theorizing’, *British Journal of Sociology*, 67(1), 23-29. https://doi.org/10.1111/1468-4446.12187_4
-
-* Mills, C. Wright (1959) *The Sociological Imagination*, Oxford: Oxford University Press
-   * Access ebook via iDiscover
+* Ngo, R. (2021). A short introduction to machine learning. https://www.alignmentforum.org/posts/qE73pqxAZmeACsAdF/a-short-introduction-to-machine-learning
+* 3Blue1Brown (2017). But what is a neural network? https://www.youtube.com/watch?v=aircAruvnKk
+* Codebasics (2021). What is self-supervised learning? https://www.youtube.com/watch?v=sJzuNAisXHA&feature=youtu.be
+* Yan, Z. (2024). Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge). eugeneyan.com. https://eugeneyan.com/writing/llm-evaluators/
+* Barrie, C., Palmer, A., & Spirling, A. (2024). Replication for Language Models Problems, Principles, and Best Practice for Political Science. URL: https://arthurspirling. org/documents/BarriePalmerSpirling TrustMeBro. pdf.
+* Zhou, Y., Muresanu, A. I., Han, Z., Paster, K., Pitis, S., Chan, H., & Ba, J. (2022). Large language models are human-level prompt engineers. arXiv preprint arXiv:2211.01910.
+* OpenAI resources. https://cookbook.openai.com/articles/related_resources
 

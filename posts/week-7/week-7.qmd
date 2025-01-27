@@ -1,22 +1,33 @@
 ---
-title: "Seminar 7: Conducting Interviews"
-description: "Practicing qualitative research using interviews"
-author: "Arushi Garg"
-date: "2024-03-07"
+title: "Seminar 7: Applied regression analysis"
+subtitle: "**Optional for Crim 1 students**"
+description: "Practicing linear regression"
+author: "Charles Lanfear"
+date: "2025-03-13"
 draft: false
 ---
 
+There are no lecture slides; 100% activity today!
+
+To get started:
+
+1. [Download this zipped project scaffold on to your computer](https://clanfear.github.io/ioc_crmw/_lectures/applied-regression-analysis/applied-regression_activity.zip)
+2. Unzip it where you keep your coursework
+3. Double-click the `applied-regression_activity.Rproj` to open the project
+4. Run the processing scripts in the project's `syntax/` folder to get the data download and assembled
+
 Required reading:
 
-* Berg, B.L. (2009) *Qualitative Research Methods for the Social Sciences, 7th International edition*. London: Allyn & Bacon. Read chapter 4, ‘A dramaturgical look at interviewing’, pp.101-152.
-   * Access reading via Moodle
+* Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)
+
+* Altman, N. and Krzywinski (2016) Regression diagnostics. Nature Methods, 13:385-386 https://www.nature.com/articles/nmeth.3854
 
 Further reading:
 
-* Holstein, J.A. and Gubrium, J.F. (2003) ‘Active interviewing’, in *Postmodern Interviewing*, Thousand Oaks, CA: Sage Publications, pp. 67-80.
-   * Access ebook via iDiscover
+* Kassambara, A. (2018) "Linear regression assumptions and diagnostics in R: Essentials." http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
+   * A good very quick overview of basic R diagnostics for linear models
 
-* Pawson, R. (1996) ‘Theorizing the interview’, *British Journal of Sociology*, 47(2): 295-314. https://doi.org/10.2307/591728
+* Gelman, A. and Hill, J. (2007) *Data Analysis using Regression and Multilevel/Hierarchical Models.* Cambridge University Press.
+   * The best general regression textbook, with detailed discussion of model diagnostics
 
-* Sandberg, S. (2010) ‘What can ‘lies’ tell us about life? Notes towards a framework of narrative criminology’, *Journal of Criminal Justice Education*, 21(4): 447-465. https://doi.org/10.1080/10511253.2010.516564
 

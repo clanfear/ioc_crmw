@@ -1,8 +1,8 @@
 ---
-title: "Seminar 8: Conducting Observations and Ethnography"
+title: "Seminar 8: Conducting observations and ethnography"
 description: "Practicing observational methods"
-author: "Alexandra Wigzell"
-date: "2024-03-14"
+author: "Daria Przybylska"
+date: "2025-03-20"
 draft: false
 ---
 
@@ -13,22 +13,16 @@ Required reading:
 * Hammersley, M. and Atkinson, P. (1995) *Ethnography: Principles in practice*, 2nd ed., London: Routledge.
    * Read chapter 4, ‘Field relations’, pp.80-123.
    * Access reading via Moodle
+* Atkinson-Sheppard, S. (2022) Developing Authenticity, Building Connections: Exploring Research Methodologies in Asia. *Asian Journal of Criminology*, 17(2): 157-174.
 
 Further reading:
 
 * Wincup, E. (2017) ‘Ethnography’, in E.Wincup (ed) *Criminological Research: Understanding Qualitative Methods*, 2nd ed., London: SAGE Publications, pp. 113-128.
-
-
-* Coffey, A. (2018) Doing Ethnography, Los Angeles, CA: Sage Publications.
-Access ebook via iDiscover
-
-* Ferrell, J. and Hamm, M.S. (1998) *Ethnography at the Edge: Crime, deviance, and field research*, Boston, MA: Northeastern University Press.
-Access ebook via iDiscover
-
+* Rowe, A. (2014) Situating the Self in Prison Research: Power, Identity, and Epistemology. Qualitative Inquiry, 20(4): 404-416.
+* Bell, K. (2019) The ‘problem’ of undesigned relationality: Ethnographic fieldwork, dual roles and research ethics. Ethnography, 20(1): 8-26. Access ebook via iDiscover
 * Travers, M., Putt, J. and Howard-Wagner, D. (eds) (2013) *Current Issues in Criminal Justice*, 25 (1): 463-469, DOI: 10.1080/10345329.2013.12035973
-
 * Crewe, B. (2006) ‘Prison drug dealing and the ethnographic lens’, *The Howard Journal of Criminal Justice*, 45(4): 347-368.
 https://doi.org/10.1111/j.1468-2311.2006.00428.x
-
-
-
+* Bandyopadhyay, M. (2015) ‘Deviation and Limitations of (Prison) Ethnography: Postscript to Fieldwork in an Indian Prison’, in Sloan J (ed.) *The Palgrave Handbook of Prison Ethnography*. Palgrave Macmillan: pp 442-462.
+* Bengtsson (2019) ‘Informed consent as a situated research process in an ethnography of incarcerated youth in Denmark’, in Billett P, Hart M and Martin D (eds.) *Complexities of Researching with Young People*. Routledge: pp 130-142.
+* Schneider, L (2020) Sexual violence during research: How the unpredictability of fieldwork and the right to risk collide with academic bureaucracy and expectations. *Critique of Anthropology*, 40(2): 173-193. (CONTENT WARNING)

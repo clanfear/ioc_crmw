@@ -1,41 +1,24 @@
 ---
-title: "Seminar 1: Quantitative Data Management"
-subtitle: "**Optional for Crim 1 students**"
-description: "Dealing with real world data"
+title: "Seminar 1: Evaluating and synthesizing quantitative research"
+description: "Making sense of different studies and findings"
 author: "Charles Lanfear"
-date: "2024-01-25"
+date: "2025-01-30"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/slides_quantitative-data-management.html)
+[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/evaluating-research/slides_evaluating-research.html) (Not available prior to class)
 
-Data for lab:
-
-* [London Crime data (.zip)](https://clanfear.github.io/ioc_crmw/_data/dpu-crime-met-2022.zip)
-* [LSOA Indices of Deprivation (.csv)](https://clanfear.github.io/ioc_crmw/_data/imd2019lsoa.csv)
-* [LSOA Population Density (.xlsx)](https://clanfear.github.io/ioc_crmw/_data/land-area-population-density-lsoa11-msoa11.xlsx)
-
-In-class code:
-
-* [`1_process-metro.R`](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/activity/code/1_process-metro.R)
-* [`2_process-deprivation.R`](https://clanfear.github.io/ioc_crmw/_lectures/1_quantitative-data-management/activity/code/2_process-deprivation.R)
-
-*Note: We did not finish the activity, so in week 3 we will use a pre-built project scaffold!*
 
 Required readings:
 
-* Quartz. *The Quartz guide to bad data.* https://github.com/Quartz/bad-data-guide
-   * “An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.”
-   * Don’t read this thoroughly, but browse through it a bit!
+* What Works Centre for Local Economic Growth. (2016) ‘Guide to Scoring Evidence: Using the Marland Scientific Methods Scale’. https://whatworksgrowth.org/wp-content/uploads/16-06-28_Scoring_Guide.pdf
+* Farrington, D.P. (2003) ‘Methodological quality standards for evaluation research’, *The Annals of the American Academy of Political and Social Science*, 587(1): 49-68. (A very influential set of criteria for what constitutes good evaluation in relation to quantitative research.)
+https://doi.org/10.1177/0002716202250789
+
 
 Further reading and resources:
 
-* Wickham, H. and Grolemund, G. (2022) *R for Data Science.* Sebastopol, CA: O’Reilly. https://r4ds.hadley.nz/ 
-
-* Robinson, D. *Tidy Tuesday live screencasts.* https://www.youtube.com/@safe4democracy/streams 
-   * Livestreamed data cleaning and analysis videos. See also https://www.youtube.com/@JuliaSilge 
-
-* Data Carpentry. (2022) *Social Science Curriculum.* https://datacarpentry.org/lessons/#social-science-curriculum 
-   * Recommended workshop rather than reading; look for upcoming workshops!
-
-
+*  Lösel, F. (2007) ‘Doing evaluation research in criminology: balancing scientific and practical demands’, in R.D. King and E. Wincup (eds) *Doing Research on Crime and Justice*, 2nd ed., Oxford: Oxford University Press, pp. 141-170. Download from Moodle
+* Rossi, P.H., Freeman, H.E. and Lipsey, M.W. (2004) *Evaluation: A systematic approach*, 7th ed., Thousand Oaks: Sage. 
+* Borenstein, M., Hedges, L., Higgins, J.P.T. and Rothstein, H.R. (2009) *Introduction to Meta-Analysis*, Chichester: John Wiley & Sons, Ltd. Read chapters 1 and 2. Access ebook via iDiscover
+* Wilson, D.B. (2009) ‘Missing a critical piece of the pie: simple document search strategies inadequate for systematic reviews’, *Journal of Experimental Criminology*, 5(4): 429–440. https://doi.org/10.1007/s11292-009-9085-5

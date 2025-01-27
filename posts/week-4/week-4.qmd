@@ -1,43 +1,37 @@
 ---
-title: "Seminar 4: Qualitative Coding and Analysis"
-description: "Practice in qualitative data analysis"
-author: "Daria Przybylska"
-date: "2024-02-15"
+title: "Seminar 4: Conducting experiments"
+description: "Experimental methods in criminology"
+author: "Andrzej Uhl"
+date: "2025-02-20"
 draft: false
 ---
 
-[Lecture Slides](https://clanfear.github.io/ioc_crmw/_lectures/)
+Lecture Slides on Moodle
 
 Required reading:
 
-* Coffey, A. and Atkinson, P. (1996) *Making Sense of Qualitative Data: Complementary research strategies*, Thousand Oaks, CA: Sage. Read chapter 2.
-   * Access reading via Moodle
+* Bachman, R., & Schutt, R.K. (2017). *The Practice of Research in Criminology and Criminal Justice*, 6th ed., London: Sage.
+(Read chapter 7, ‘Experimental designs’, pp. 176-206)
+* Exum, M. L. (2002). The application and robustness of the rational choice perspective in the study of intoxicated and angry intentions to aggress. *Criminology*, 40(4), 933-966.  (Read pp. 939-947)
+* Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. *Nature*, 415(6868), 137-140.
+* An Introduction to Factorial Survey Experiments – Part 1: Introduction: https://www.youtube.com/watch?v=5xfuqaCWJ6w 
 
-* Robson, C. (2016) *Real World Research: A resource for users of social research methods in applied settings*, 4th ed., Chichester: Wiley. Read chapter 18 'The analysis and interpretation of qualitative data', pp. 459-486.
-   * Access reading via Moodle
-
-* Braun, V. and Clarke, V. (2021) 'One size fits all? What counts as quality practice in (reflexive) thematic analysis?', *Qualitative Research in Psychology*, 18:3, 328-352. https://doi.org/10.1080/14780887.2020.1769238
 
 Further reading:
 
-* Miles, B. and Huberman, A.M. (1994) *Qualitative Data Analysis: An expanded sourcebook*, 2nd ed., London: Sage. Read chapter 10, ‘Making good sense: drawing and verifying conclusions’, pp. 245-287.
-
-* Strauss, A.L. and Corbin, J. (1998) *Basics of Qualitative Research: Techniques and procedures for developing grounded theory*, 2nd ed., Thousand Oaks, CA: Sage.
-   * Access 3rd edition ebook via iDiscover
-
-* Becker, H.S. (1998) *Tricks of the Trade: How to think about your research while you’re doing it*, Chicago, IL: Chicago University Press.
-Ritchie, J., Lewis, J., McNaughton Nicholls, C. and Ormston, R. (2014) Qualitative Research Practice: A guide for social science students and researchers, 2nd ed., London: Sage.
-
-* Charmaz, K. (2014) *Constructing Grounded Theory: A practical guide through qualitative analysis*, London: Sage Publications.
-
-* Silverman, D. (2010) *Doing Qualitative Research: A practical handbook*, London: Sage. Read part 3.
-
-* Weaver, B. (2016) *Offending and Desistance*, London: Routledge.  Read Annex, Research Methods.
-   * Access ebook via iDiscover
-   
-* Hulley, S and Young, T (2022) ‘Body Map Storytelling: Exploring identity with lifers convicted of murder using the doctrine of 'joint enterprise'.’ *Prison Service Journal* (261).
-
-* Thomas, P. C. , McNeill, F. , Cathcart Froden, L., Collinson Scott, J., Escobar, O. and Urie, A. (2021) ‘Re-writing punishment? Songs and narrative problemsolving’. *Incarceration*, 2(1), (doi: 10.1177/26326663211000239)
-
-* Levell, J. (2022) B*oys, Domestic Abuse and Gang Involvement: Violence at Home, Violence On-Road.* Bristol University Press.
+* Factorial survey experiments
+   * Wallander, L. (2009). 25 years of factorial surveys in sociology: A review. *Social Science Research*, 38(3), 505-520.
+   * Wikström, P.-O. H., Oberwittler, D., Treiber, K & Hardie, B. (2012). *Breaking Rules: The Social and Situational Dynamics of Young People’s Urban Crime*. OUP Oxford. Available on iDiscover. (Read Chapter 8)
+* Natural experiments
+   * Fisman, R., & Miguel, E. (2007). Corruption, norms, and legal enforcement: Evidence from diplomatic parking tickets. Journal of Political Economy, 115(6), 1020-1048.
+* Immersive experiments
+   * Barnum, T. C., Herman, S., van Gelder, J. L., Ribeaud, D., Eisner, M., & Nagin, D. S. (2024). Reactive guardianship: Who intervenes? How? And why? *Criminology* 62(3), 587-618.
+* Field experiments
+   * Pager, D. (2003). The mark of a criminal record. *American Journal of Sociology*, 108(5), 937-975.
+* Conjoint experiments
+   * Schwarz, S., Baum, M. A., & Cohen, D. K. (2020). (Sex) crime and punishment in the# MeToo era: How the public views rape. *Political Behavior* 44, 75-104.
+* Randomised controlled trials
+   * Sherman, L. W., & Berk, R. A. (1984). The specific deterrent effects of arrest for domestic assault. *American Sociological Review* 49(2), 261–272.
+* Simulating experiments in observational data
+  * Loeffler, C. E., & Nagin, D. S. (2022). The impact of incarceration on recidivism. *Annual Review of Criminology*, 5(1), 133-152.
 
