@@ -1,8 +1,8 @@
 ---
-title: "Writing Up Quantitative Research"
-subtitle: "CRMW Lecture 6"
+title: "Evaluating and Synthesizing Quantitative Research"
+subtitle: "CRMW Lecture 1"
 author: "Charles Lanfear"
-date: "1 Feb 2024<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+date: "30 Jan 2025<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
 output:
   xaringan::moon_reader:
     css: "../assets/cam-css.css"
@@ -15,747 +15,202 @@ output:
       titleSlideClass: ["center","top"]
 ---
 
-```{r setup, purl=FALSE}
-#| include: false
-options(width = 68)
-set.seed(7)
-knitr::opts_chunk$set(eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE, dev = "svg", fig.height = 4)
-library(tidyverse)
-library(flextable)
-```
 
+# Background
 
-# Today
-
-## Quant Writing
-
-## Describing Methods
-
-## Presenting Results
-
----
-
-class: inverse
-
-# Quant Writing
-
-<br>
-
-![:width 80%](img/stress.jpg)
-
----
-
-## Target your writing
-
-Professional (academic) writing is purposeful **communication** to an audience
-
---
-
-* Know the purpose
-* Know the audience
-
---
-
-
-.pull-left[
-*To show other academics that results from an experiment falsify a proposition of a theory*
+.text-125[
+You have been hired as a team of social policy consultants
 ]
-.pull-right[
-*To explain to policy-makers that a policy was not effective in reducing crime*
+
+--
+.text-125[
+&nbsp;
+
+The policy-maker wants an answer to the following question:
+
+** *Do Community Violence Interventions (CVI) reduce violence?* **
+
+&nbsp;
 ]
 
 --
 
-* Remember:
+.text-125[
 
-   * **Clarity comes first**
-   * Numbers can easily overwhelm or mislead
-   * Numbers are boring—people only care about what they describe
-
+Your colleagues have already identified a collection of relevant studies, but they haven't obtained them or evaluated them yet
+]
 
 --
 
-.text-center[
-*Everything you write should serve your purpose and be understood by your audience—numbers included*
+.text-125[
+&nbsp;
+
+Time is short: *You're meeting the policy-maker at the end of today's seminar!*
 ]
 
 ---
 
-## Matsueda (2019)
+# The Maryland Scale
 
-.pull-left-70[
-* Quantitative articles have a common structure
-   + Efficient communication—*deviate at your peril*
-   + **Hourglass** shape
-      * Start with big picture
-      * Narrow to what you did
-      * Relate back to big picture
-   
-* **Mimic others**:
-   * Prominent outlets
-   * Good writers
-   
-* Highlight your contributions
+* **Level 5**: Units have been **randomised** into treatment and control groups
 
-* Literature reviews are **important**
-   * Position your work in the conversation
-]
+--
 
-.pull-right-30[
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-![:width 95%](img/ross.jpg)
+* **Level 4**: Exploits **quasi-randomness** so that treatment and control groups credibly differ only in their exposure to the random allocation of treatment
+
+--
+
+* **Level 3**: Comparison of outcomes in treated group **before and after** an intervention, and a **comparison group** used to provide a **comparable counterfactual**
+
+--
+
+* **Level 2**: Use of **adequate control variables** and either...
+   * A post-intervention comparison of treated groups with untreated groups
+   * A before-and-after comparison of only the treated group
+
+--
+
+* **Level 1**: Either...
+   * A post-intervention comparison of treated groups with untreated groups
+   * A before-and-after comparison of only the treated group
+
+---
+
+# Your Task
+
+.text-125[
+Use the Cambridge Library, Google Scholar, or other resources to:
+
+1. Locate the study on the slide, then
+2. Sort it into one of the "Maryland levels" based on its design
+3. Write your group #, first author, year, and rating on slip<sup>1</sup>
+
+.footnote[[1] e.g.: "2 MacDonald (2016) 5"]
+
+
+If there is disagreement among group members, *record the disagreement for discussion*
+
 ]
 
 ---
 
-# Structure
+## STUDY 1
 
-Empirical articles rarely stray far from this:
-
-1. Abstract
-2. Introduction
-3. Literature Review / Background
-4. **Methods**
-5. **Results**
-6. **Discussion**
-7. Conclusion<sup>1</sup>
-
-.footnote[
-[1] Often in discussion rather than separate
-]
-
---
-
-<br>
-
-.text-center[
-*We'll mainly focus on methods, results, and discussion*
+.text-125[
+Braga, A.A., Hureau, D.M., & Papachristos, A.V. (2014) Deterring gang-involved gun violence: Measuring the impact of Boston's Operation Ceasefire on street gang behavior. *Journal of Quantitative Criminology*, 30.
 ]
 
 ---
 
-## Abstract
+## STUDY 2
 
-* An elevator speech: Summarize the entire paper in 200 words
-
---
-
-## Introduction
-
-* **Hook the reader**
-* State the research question
-* Highlight contribution or main findings (optional)
-* Foreshadow the structure of paper
-
---
-
-## Literature Review / Background
-
-* **Motivate the research question and design**
-   * This section is an **argument** not a summary
-* Support key assumptions and arguments
-   * *Your theoretical model and every variable should be covered*
-* Lay out hypotheses
-   * *This is often done in its own section between background and methods*
-
-
-
----
-class: inverse
-
-# Data and Methods
-
-<br>
-
-![:width 80%](img/klm.png)
-
-.footnote[[Knox, Lowe, & Mummulo (2020)](https://doi.org/10.1017/S0003055420000039)]
-
----
-
-## What to Include
-
-.pull-left[
-
-From reading:
-
-* **Be complete**
-
-   + *Describe everything you did*
-
-* **Be clear**
-
-   + *Describe each thing in sufficient detail for the average reader to understand what was done*
-
-* **Be credible**
-
-   + *Justify your choices*
-      + Data and method
-   + What you did should follow logically from your **research design**
-]
-
---
-
-.pull-right[
-From me:
-
-* **Know your audience**
-
-   + *Journal of Quantitative Criminology*
-   + *Criminology*
-   + Policy reports
-   + Public scholarship
-
-* **Lean on references**
-
-   + "Following Sampson et al. (1997), I..."
-
-* **Compartmentalize**
-
-   + *Make it easy to skip the scary stuff*
-
-* **Do not oversell**
+.text-125[
+Fox, A.M., Katz, C.M., Choate, D.E., & Hedberg, E.C. (2015) Evaluation of the Phoenix TRUCE project: A replication of Chicago CeaseFire. *Justice Quarterly*, 32(1)
 ]
 
 ---
 
-## Data
+## STUDY 3
 
-* **Where** and **when** it was collected
-
-   + e.g., London in 2014–2018
-
---
-
-* **How** it was collected
-
-   + *Sampling design and measurement method*
-   + e.g., random-digit-dial phone survey
-
---
-
-* What are the **units**?
-
-   + *Both for collection and analysis*
-   + e.g., individual survey responses aggregated to wards
-
---
-
-* **Excluded** or **missing** data
-
-   + *Both what is missing and what you did about it*
-   + Include non-response and loss to follow-up
-
---
-
-* What **transformations** or **modifications** were made
-   + *What you did and why*
-   + e.g., standardization
-
----
-
-## Methods
-
-* Statistical method
-
-   + *What you did and why—and why **not** other ways*
-   + e.g.: 
-      + "Crime was modelled using Poisson regression because the outcome is a strictly non-negative integer."
-      + "We control for unstructured socialization as it is a known confounder for..."
-      + "I did not control for ambient population, because it is a mediator for..."
-
---
-
-* The more established the approach, the less detail you need
-
-   * Linear regression needs a sentence
-   * A structural equation needs a paragraph
-   * New approaches can require an entire paper
-
---
-
-.text-center[
-*Level of detail and justification is context-specific; a common approach in one subfield may be new to another*
+.text-125[
+Bhatt M.P., Heller, .S.B, Kapustin, M., Bertrand, M., & Blattman, C. (2024) Predicting and preventing gun violence: An experimental evaluation of READI Chicago. *Quarterly Journal of Economics*, 139(1)
 ]
 
 ---
 
-## Communicate the three quantities
+## STUDY 4
 
-
-.pull-left-60[
-
-* **Estimand**: the real-world quantity we want to measure
-
-   + Your **literature review** justifies interest in the estimand
-
+.text-125[
+Hureau, D.M., Braga, A.A., Lloyd, T., & Winship, C. (2023) Streetwork at the crossroads: An evaluation of a street gang outreach intervention and holistic appraisal of the research evidence. *Criminology*, 61
 ]
-
-.pull-right-40[
-![:width 75%](img/estimation1.png)
-]
-
-.footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
 
 ---
-count: false
-## Communicate the three quantities
 
+## STUDY 5
 
-.pull-left-60[
-
-* **Estimand**: the real-world quantity we want to measure
-
-   + Your **literature review** justifies interest in the estimand
-
-
-* **Estimator**: the procedure we use to calculate the estimate using data
-
-   + Your **methods section** explains and justifies the use of the estimator
-
+.text-125[
+Corburn, J., Boggan, D., Muttaqi, K., & Vaughn, S. (2022) Preventing urban firearm homicides during COVID-19: Preliminary results from three cities with the Advance Peace program. *Journal of Urban Health*, 99
 ]
-
-.pull-right-40[
-![:width 75%](img/estimation2.png)
-]
-
-.footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
 
 ---
-count: false
-## Communicate the three quantities
 
+## STUDY 6
 
-.pull-left-60[
-
-* **Estimand**: the real-world quantity we want to measure
-
-   + Your **literature review** justifies interest in the estimand
-
-
-* **Estimator**: the procedure we use to calculate the estimate using data
-
-   + Your **methods section** explains and justifies the use of the estimator
-
-
-* **Estimate**: the calculated quantity approximating our estimand
-
-   + Your **results section** presents this, under the assumption your estimator is correct
+.text-125[
+Picard-Fritsche, S. & Cerniglia, L. (2013) *Testing a public health approach to gun violence: An evaluation of Crown Heights Save Our Streets, a replication of the Curve Violence model.* New York, NY: Center for Court Innovation
 ]
 
-.pull-right-40[
-![:width 75%](img/estimation.png)
+---
+
+## STUDY 7
+
+.text-125[
+Buggs, S.A., Webster, D.W., & Crifasi, C.K. (2022) Using synthetic control methodology to estimate effects of a Cure Violence intervention in Baltimore, Maryland. *Injury Prevention*, 28
 ]
 
-.footnote[Image credit: [Richard McElreath](https://twitter.com/rlmcelreath/status/1582368904529137672)]
+---
 
+## STUDY 8
 
+.text-125[
+Boyle, D.J., Lanterman, J.L., Pascarella, J.E., & Cheng, C-C. (2010) The impact of Newark's Operation Ceasfire on trauma center gunshot wound admissions. *Justice Research and Policy*, 12(2)
+]
+
+---
+
+## STUDY 9
+
+.text-125[
+Ross, M.C., Ochoa, EM., & Papachristos, A.V. (2023) Evaluating the impact of a street outreach intervention on participant involvement in gang violence. *PNAS*, 120(46)
+]
+
+---
+
+## STUDY 10
+
+.text-125[
+Webster, D.W., Whitehill, J.M., Vernick, J.S., & Curriero, F.C. (2012) Effects of Baltimore's Safe Streets program on gun violence: A replication of Chicago's CeaseFire program. *Journal of Urban Health*, 90(1)
+]
+
+---
+
+## STUDY 11
+
+.text-125[
+Braga, A.A., Kennedy, D.M., Waring, E.J., & Piehl, A.M. (2001) Problem-oriented policing, deterrence, and youth violence: An evaluation of Boston's Operation Ceasefire. *Journal of Research in Crime and Delinquency*, 38(3)
+]
+
+---
+
+## STUDY 12
+
+.text-125[
+Park, J., Schoenberg, F.P., Bertozzi, A.L., & Brantingham, P.J. (2021) Investigating clustering and violence interruption in gang-related violent crime data using spatial-temporal point processes with covariates. *Journal of the American Statistical Association*, 116(536)
+]
+
+---
+
+## STUDY 13
+
+.text-125[
+Brantingham, P.J., Tita, G., & Herz, D. (2021) The impact of the City of Los Angeles Mayor's Office of Gang Reduction and Youth Development (GRYD) comprehensive strategy on crime in the City of Los Angeles. *Justice Evaluation Journal*, 4(2)
+]
+
+---
+
+## STUDY 14
+
+.text-125[
+Wilson, J.M. & Chermak, S. (2011) Community-driven violence reduction programs: Examining Pittsburgh's One Vision One Life. *Criminology & Public Policy*, 10(4)
+]
 
 ---
 class: inverse
 
-# Presenting Results
+# Wrap-Up
 
-<br>
+&nbsp;
 
-![:width 85%](img/fig-2-survival-curves.png)
-.footnote[
-[1] Source: [Lanfear, Bucci, Sampson, & Kirk (2023)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2804655)
-]
+## [Seminar today!](https://www.crim.cam.ac.uk/events/lent-term-public-seminar-professor-joe-murray)
 
----
-
-## Where numbers go
-
-.container[
-.column[
-
-.text-center[
-### Text
-]
-
-* **Key evidence**
-   + Main estimates
-   + Big "hooks"
-* Important standalone values
-   + e.g., sample size
-* **Very few at a time**
-* **Nothing unimportant**
-]
-.column[
-
-.text-center[
-### Table
-]
-
-* Precise values for look up
-   + **Descriptive statistics**
-   + Model estimates
-* Many values of different kinds
-   + Data tables
-]
-.column[
-
-.text-center[
-### Figure
-]
-
-* **Everything else**
-* Especially:
-   + Comparisons with similar data
-   + Multivariable relationships
-   + Anything hard to explain verbally
-]
-]
-
----
-
-# Text
-
-For values in text (and tables)...
-
-.pull-left[
-
-* Use appropriate **precision**
-
-   + Bad: $3.1445 \pm 0.2331$
-   + Good: $3.14 \pm 0.23$
-
-* Use appropriate **scaling**
-
-   + Bad: $\beta=0.0025\text{km}$
-   + Good: $\beta=2.5 \text{m}$
-]
-
---
-
-.pull-right[
-
-* Use **units**
-
-   + "30 more burglaries"
-   + "1 SD higher robbery (23 robberies)"
-   + "A 5 percentage point difference"
-   + "25 percent more thefts"
-
-]
-
-
---
-
-* Recognize **substantive** and **statistical** significance
-
-   * Detecting something and caring about it are different things
-
---
-
-* 
-
-.text-center[
-*Present only numbers that are related to your objective and meaningful to your audience*
-]
-
----
-## Writing about relationships
-
-Your design determines if estimated relationships are plausibly causal or not
-
---
-
-.pull-left[
-&zwj;**Causal** language:
-
-* "increases"
-* "affects"
-* "influences"
-]
-
---
-
-.pull-right[
-**Non-causal** language:
-
-* "is associated with"
-* "correlates with"
-* "is positively related to"
-]
-
---
-
-<br>
-
-.text-center[
-*Do not try to be clever about this*
-]
-
---
-
-<br>
-
-In either case, note when this relationship is found controlling for other variables:
-
-> "Conditional on sociodemographic structure of neighborhoods, we find a 1 standard deviation increase in collective efficacy to be associated with a 17.5% reduction in violent crime in the next year."
-
-
----
-
-## Text Examples
-
-Highlighting big hooks:
-
-> Race and ethnic differences in exposure to firearm violence are pronounced, with both forms of exposure highest for Black respondents (Figure 2A). By age 40, an estimated 7.47% of Black and 7.05% of Hispanic respondents had been shot, with one Black and one Hispanic respondent fatally shot. In contrast, an estimated 3.13% of White respondents were victims of a shooting by age 40.<sup>1</sup>
-
-.footnote[
-[1] [Lanfear, Bucci, Sampson, & Kirk (2023)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2804655)<br><br>
-]
-
---
-
-Main estimates:
-
-> A 1 standard deviation higher level of abandoned buildings—21 percent more block faces with abandoned buildings on and around that block—is expected to be associated with, on average, approximately 20 percent more homicides and gun assaults than an otherwise similar block.<sup>2</sup>
-
-.footnote[
-[2] [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)
-]
-
----
-
-# Tables
-
-*Tables should stand alone*
-
-.pull-left[
-* Title, headings, notes, and structure should convey:
-   + Purpose
-   + Context
-   + Units
-   + Source of data
-   + Definitions of abbreviations
-
-
-]
-
---
-
-.pull-right[
-* Make them **simple** and **intuitive**
-   * No ornamentation
-      + Lines only to guide eyes
-   * Values with proper scale and precision
-   * Order rows and columns purposefully
-]
-
---
-
-Creating tables:
-
-.container[
-.pull-left[
-* Non-Programmatic
-
-   * Word / Google Docs
-   * Excel / Google Sheets
-]
-.pull-right[
-* Programmatic
-
-   * R / R Markdown
-   * $\LaTeX$ (plz no)
-]
-]
-
----
-
-![](img/apa_table_diagram.jpg)
-.footnote[
-Source: APA Publication Manual, 7th Ed.
-]
-
----
-## An example
-
-```{r, echo = FALSE}
-tribble(~Condition, ~`Walk-By`, ~Mail, ~Theft,
-        "Control", 1496, 176, 28,
-        "Treatment", 1617, 136, 28
-       ) |>
-  pivot_longer(`Walk-By`:Theft, names_to = "Outcome", values_to = "Count") |>
-  group_by(Condition) |>
-  mutate(Prop = Count / sum(Count)) |>
-  mutate(Prop = paste0(format(round(Prop*100,1), nsmall =1), "%"),
-         Count = as.character(Count)) |>
-  pivot_longer(-c(Condition, Outcome)) |>
-  pivot_wider(names_from = Outcome, values_from = value) |>
-  select(-name) |>
-  flextable() |>
-  border_remove() |>
-  merge_v(j = 1) |>
-  width(j = 1, 1.5) |>
-  width(j = 2:4, 1.2) |>
-  hline_top(j = 2:4, part = "body") |>
-  hline_bottom(j = 1:4) |>
-  hline_bottom(part = "header") |>
-  fontsize(size = 16, part = "all") |>
-  add_header_lines("Table 1. Actions by treatment condition") |>
-  fix_border_issues(part = "all")
-  
-```
-
-**Causal** design:
-
-* "There was no **effect** of treatment on theft."
-* "The treatment **reduced** mailing by 2.8 percentage points."
-
----
-
-![:height 600px](img/ce-be-factors.png)
-.footnote[Source: [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)]
-
----
-
-# Figures
-
-* What do we put in figures?
-
-   + *Nearly everything, if possible*
-   + Model results
-   + **Maps!**
-   
---
-
-* *Figures should stand alone*
-
-   + Use informative titles and labels
-   + Include detailed captions
-
---
-
-* Visualization is hard!
-
-   + Too involved to scratch surface today
-   + Take courses on visualization, e.g.:
-      * [Chris Adolph free materials](http://faculty.washington.edu/cadolph/index.php?page=22)
-      * [Nathan Yau's affordable *Flowing Data*](https://flowingdata.com/)
-   + *Read books*
-
----
-
-.pull-left-40[
-![:width 100%](img/fig-3-model-results.png)
-]
-.pull-right-60[
-.text-72[
-## An example!
-
-Figure 3. Model Estimates of Disparities in Exposure to Gun Violence to Age 40
-
-Hazard ratios (HR) and incidence rate ratios (IRR) greater than 1 indicate higher estimated exposure to gun violence. HRs were estimated with a semi-parametric Turnbull proportional hazards model. IRRs were estimated with a negative binomial regression. Models are weighted to permit generalizing estimates of exposure to the population of children coming of age in Chicago in the 1990s. Case weights applied during estimation are constructed from a combination of original survey design weights and weights for attrition constructed using predictions from binary logistic regression models. The final weights used in the analysis are the product of the survey design weights and attrition weights at each wave. Observations receive the combined weight at their final follow-up period (e.g., an individual observed through wave 3 would receive a weight equal to the product of the survey design weight, their wave 2 attrition weight, and their wave 3 attrition weight). Results are insensitive to trimming weights to the center 90% of the distribution. Results are also similar as alternative specifications of survival models (see eFigure 2) and without weights (see eFigure 3). Sample sizes are 2,417 for seen shot, 2,135 for been shot, and 649 for nearby shootings.
-]
-]
-
-.footnote[Source: Lanfear, Bucci, Sampson, & Kirk (2023)]
-
-
-
-
----
-
-## Put plots in tables!
-
-![:width 50%](img/ce-be.png)
-
-.footnote[Source: [Lanfear (2022)](https://doi.org/10.1111/1745-9125.12304)]
-
-
-
----
-
-## Use visual examples!
-
-
-![:width 60%](img/maps-plot.png)
-
-.text-72[
-Figure 4.  Frequency of Nearby Shootings in the Past Year by Respondent Race 
-
-A, C, and E depict race-specific quintiles of frequencies of shootings within 250 m of respondents' residence in the past year. B, D, and F depict representative locations with counts of nearby shootings approximately equal to the mean of each group's fifth quintile (7 shootings for Black respondents, 2 shootings for Hispanic respondents, and 1 shooting for White respondents). Red dots are shootings. Circles are 250-m radii around respondent places of residence but are shifted to protect anonymity. Only race differences are shown because nearby shooting frequencies did not notably differ by sex or age cohort. Analysis was restricted to Black, Hispanic, and White respondents of wave 5 (649 respondents). Map tiles by Stamen Design; map data by OpenStreetMap (OpenStreetMap Foundation).
-]
-
-.pull-right-70[
-.footnote[Source: Lanfear, Bucci, Sampson, & Kirk (2023)]
-]
-
----
-
-## Book Recommendations
-
-.pull-left[
-![:height 480px](img/dv-cover-pupress.jpg)
-
-* With programming (in R)
-
-]
-.pull-right[
-![:height 480px](img/wilke_cover.png)
-
-* Without programming
-]
-
-
----
-
-# Discussion
-
-* Limitations
-
-   * *Be honest but not self-flagellating*
-      * Don't present only trivial weaknesses
-      * Do note if you improve on past methods
-   * Specify how future research can address them
-
---
-
-* Implications
-
-   * New or unanswered research questions
-   * Connect back to theories
-   * Resist making policy prescriptions (unless the goal of the paper)
-      * Drawing *attention* to a problem is fine
-
---
-
-* Finish strong and **upbeat**
-
-   * "Despite these limitations, this study contributes to our understanding..."
-   * Reiterate most significant takeaways
-   * *Some people skip right to the conclusion, so use **hooks** here too*
-
----
-
-class: inverse
-
-# Moving Forward
-
-.pull-left[
-* Read books on:
-
-   * Writing in general
-   * Writing with numbers
-   * Making figures
-
-* Read articles
-
-   * Pay attention to **style** in addition to content
-   * Take note of effective figures and tables
-
-* **Practice!**
-
-
-]
-.pull-right-40[
-![](img/miller.jpg)
-]
 

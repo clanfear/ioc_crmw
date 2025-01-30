@@ -1,0 +1,287 @@
+---
+title: "My ratings"
+author: "Charles Lanfear"
+date: "30 Jan 2025<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+output:
+  xaringan::moon_reader:
+    css: "../assets/cam-css.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: tomorrow-night-bright
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "../assets/cam_macros.js"
+      titleSlideClass: ["center","top"]
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+studies <- readxl::read_excel("./study_ratings.xlsx")
+```
+
+
+## STUDY 1
+
+.pull-left[
+
+`r studies$full_study[studies$order==1]`
+
+**My score:** `r studies$Rating[studies$order==1]`
+
+* Propensity score matching
+* Before-and-after 
+
+]
+.pull-right[
+![](img/Braga et al 2014.png)
+]
+
+
+
+
+---
+
+## STUDY 2
+
+.pull-left[
+
+`r studies$full_study[studies$order==2]`
+
+**My score:** `r studies$Rating[studies$order==2]`
+
+* Before-and-after
+* Dissimilar comparison group
+
+]
+.pull-right[
+![](img/Fox et al 2015.png)
+]
+
+
+
+---
+
+## STUDY 3
+
+
+.pull-left[
+
+`r studies$full_study[studies$order==3]`
+
+**My score:** `r studies$Rating[studies$order==3]`
+
+* RCT
+* Maybe issues with compliance
+
+]
+.pull-right[
+![](img/Bhatt et al 2024 1.png)
+&nbsp;
+
+![](img/Bhatt et al 2024 2.png)
+]
+
+---
+
+## STUDY 4
+
+.pull-left[
+
+`r studies$full_study[studies$order==4]`
+
+**My score:** `r studies$Rating[studies$order==4]`
+
+* Before-and-after
+* Matched comparison group
+
+]
+.pull-right[
+![](img/Hureau et al 2023.png)
+]
+
+---
+
+## STUDY 5
+
+.pull-left[
+
+`r studies$full_study[studies$order==5]`
+
+**My score:** `r studies$Rating[studies$order==5]`
+
+* Before-and-after
+* No comparison group
+
+]
+.pull-right[
+![](img/Corburn et al 2022.png)
+]
+
+---
+
+## STUDY 6
+
+.pull-left[
+
+`r studies$full_study[studies$order==6]`
+
+**My score:** `r studies$Rating[studies$order==6]`
+
+* Before-and-after
+* Comparison group (ambiguous if comparable)
+
+]
+.pull-right[
+![](img/Picard-Fritsche & Cerniglia 2013.png)
+
+&nbsp;
+
+![](img/Picard-Fritsche & Cerniglia 2013 2.png)
+]
+
+---
+
+## STUDY 7
+
+.pull-left[
+
+`r studies$full_study[studies$order==7]`
+
+**My score:** `r studies$Rating[studies$order==7]`
+
+* Before-and-after
+* Covariate control
+
+]
+.pull-right[
+![](img/Buggs et al 2022.png)
+]
+
+---
+
+## STUDY 8
+
+.pull-left[
+
+`r studies$full_study[studies$order==8]`
+
+**My score:** `r studies$Rating[studies$order==8]`
+
+* Before-and-after
+* Matched comparison
+
+]
+.pull-right[
+![](img/Boyle et al 2010.png)
+]
+
+---
+
+## STUDY 9
+
+.pull-left[
+
+`r studies$full_study[studies$order==9]`
+
+**My score:** `r studies$Rating[studies$order==9]`
+
+* Only post-treatment comparison
+* Matching on covariates
+
+]
+.pull-right[
+![](img/Ross et al. 2023.png)
+]
+
+---
+
+## STUDY 10
+
+.pull-left[
+
+`r studies$full_study[studies$order==10]`
+
+**My score:** `r studies$Rating[studies$order==10]`
+
+* Before-and-after
+* Covariate control
+
+
+]
+.pull-right[
+![](img/Webster et al. 2012.png)
+]
+
+---
+
+## STUDY 11
+
+.pull-left[
+
+`r studies$full_study[studies$order==11]`
+
+**My score:** `r studies$Rating[studies$order==11]`
+
+* Before-and-after for treated group
+* City-level comparison
+
+]
+.pull-right[
+![](img/Braga et al 2001.png)
+]
+
+---
+
+## STUDY 12
+
+.pull-left[
+
+`r studies$full_study[studies$order==12]`
+
+**My score:** `r studies$Rating[studies$order==12]`
+
+* Before-and-after
+* Covariate control
+
+]
+.pull-right[
+![](img/Park et al 2021.png)
+]
+
+---
+
+## STUDY 13
+
+.pull-left[
+
+`r studies$full_study[studies$order==13]`
+
+**My score:** `r studies$Rating[studies$order==13]`
+
+* Before-and-after
+* Comparison group
+* Placebo test with non-targeted crime
+
+]
+.pull-right[
+![](img/Brantingham et al 2021.png)
+]
+
+---
+
+## STUDY 14
+
+.pull-left[
+
+`r studies$full_study[studies$order==14]`
+
+**My score:** `r studies$Rating[studies$order==14]`
+
+* Before-and-after
+* Matched comparison
+
+]
+.pull-right[
+![](img/Wilson & Chermak 2011.png)
+]
+
