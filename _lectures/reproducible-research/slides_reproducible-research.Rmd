@@ -2,7 +2,7 @@
 title: "Reproducible Research"
 subtitle: "CRMW Lecture 5"
 author: "Charles Lanfear"
-date: "22 Feb 2024<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+date: "5 Feb 2025<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
 output:
   xaringan::moon_reader:
     css: "../assets/cam-css.css"
@@ -363,7 +363,7 @@ For research to be reproducible, it must also be *portable*. Portable software o
 
 **Do:**
 
-* Use RStudio projects, the [`here` package](https://github.com/jennybc/here_here)), or R/Qmd docs to set directories.
+* Use RStudio projects, the [`here` package](https://github.com/jennybc/here_here), or R/Qmd docs to set directories.
 * Use *relative paths* to load and save files:
   + `read_csv("./data/my_data.csv")`
 * Load all required packages using `library()`.
@@ -373,7 +373,7 @@ For research to be reproducible, it must also be *portable*. Portable software o
 ---
 # Divide and Conquer
 
-Usually you do not want to include all code for a project in one `.Rmd` file:
+Usually you do not want to include all code for a project in one `.Qmd` file:
 
    * The code takes too long to knit.
    * The file is too long to read.
@@ -383,7 +383,7 @@ Usually you do not want to include all code for a project in one `.Rmd` file:
 
 There are two ways to deal with this:
 
-1. Use separate `.R` scripts or `.Rmd` files which save results from complicated parts of a project, then load these results in the main `.Rmd` file.
+1. Use separate `.R` scripts or `.Qmd` files which save results from complicated parts of a project, then load these results in the main `.Qmd` file.
 
    + Good for loading and cleaning large data
    + Also for running slow models
@@ -391,7 +391,7 @@ There are two ways to deal with this:
 
 --
 
-2. Use `source()` to run external `.R` scripts when the `.Rmd` knits.
+2. Use `source()` to run external `.R` scripts when the `.Qmd` knits.
 
    + This can be used to run large files that aren't impractically slow.
    + Also good for loading project-specific functions
@@ -488,9 +488,9 @@ Quarto and R Markdown are powerful tools:
 
 * **The new hotshot**
 * Easier setup for references and complex documents
-* Works with R *and* Python *and* Julia
-* [Beautiful reveal.js slides](https://clanfear.github.io/UW_2022-12-09/slides/exposures_slides.html)
-* New, so...
+* Works with R, Python, Julia, etc.
+* [Beautiful reveal.js slides](https://clanfear.github.io/ncgvr_2024-07-09/slides.html)
+* Newer, so...
    * Less online support
    * More bugs
    * Fewer specialty formats
@@ -502,8 +502,8 @@ Quarto and R Markdown are powerful tools:
 * **The old warhorse**
 * Every imaginable format, provided some setup
 * Mainly R
-* [Powerful Xaringan slides](https://clanfear.github.io/ioc_crmw/_lectures/5_reproducible-research/slides_reproducible-research.html)
-* Old, so...
+* [Powerful Xaringan slides](https://clanfear.github.io/ioc_crmw/_lectures/reproducible-research/slides_reproducible-research.html)
+* Older, so...
    * Better support
    * Fewer, weirder bugs
    * Less new development
@@ -533,9 +533,9 @@ You may also open up the file in your computer's browser if you so desire, using
 
 ---
 
-# R Markdown Headers
+# Quarto YAML Headers
 
-The header of a Quarto file is a [YAML](http://yaml.org/) (YAML Ain't Markup Language<sup>1</sup>) code block, and everything else is part of the main document.
+The header of a Quarto file is a [YAML](https://en.wikipedia.org/wiki/YAML) (YAML Ain't Markup Language<sup>1</sup>) code block, and everything else is part of the main document.
 
 .footnote[[1] Nerds love recursive acronyms.
  ]
@@ -545,7 +545,7 @@ The header of a Quarto file is a [YAML](http://yaml.org/) (YAML Ain't Markup Lan
 ---
 title: "Untitled"
 author: "Charles Lanfear"
-date: "March 28, 2018"
+date: "February 5, 2025"
 format: html
 ---
 ```
@@ -564,7 +564,7 @@ format:
 Quarto headers have autocomplete!
 
 ---
-# R Markdown Syntax
+# Markdown Syntax
 .pull-left[
 
 ## Output
@@ -604,7 +604,7 @@ Quarto headers have autocomplete!
 
 ---
 
-# More R Markdown Syntax
+# More Markdown Syntax
 
 .pull-left[
 ## Output
