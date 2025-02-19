@@ -1,33 +1,35 @@
 ---
-title: "Seminar 7: Applied regression analysis"
-subtitle: "**Optional for Crim 1 students**"
-description: "Practicing linear regression"
-author: "Charles Lanfear"
+title: "Seminar 7: Using language models"
+description: "Familiarising students with key concepts in LLM use"
+author: "Natalia Cabrera-Morales"
 date: "2025-03-13"
 draft: false
 ---
 
-There are no lecture slides; 100% activity today!
-
-To get started:
-
-1. [Download this zipped project scaffold on to your computer](https://clanfear.github.io/ioc_crmw/_lectures/applied-regression-analysis/applied-regression_activity.zip)
-2. Unzip it where you keep your coursework
-3. Double-click the `applied-regression_activity.Rproj` to open the project
-4. Run the processing scripts in the project's `syntax/` folder to get the data download and assembled
-
 Required reading:
 
-* Huntington-Klein, N. (2022) The Effect: An Introduction to Research Design and Causality. Read chapter 13: Regression (https://theeffectbook.net/ch-StatisticalAdjustment.html)
-
-* Altman, N. and Krzywinski (2016) Regression diagnostics. Nature Methods, 13:385-386 https://www.nature.com/articles/nmeth.3854
+* Starting out
+   * Forte, J. (2024). Introduction to GPT-4o and GPT-4o mini. https://cookbook.openai.com/examples/gpt4o/introduction_to_gpt4o
+   * Sanders, T. & Heaton, M. (2022). Question answering using embeddings-based search. https://cookbook.openai.com/examples/question_answering_using_embeddings
+*Prompt engineering
+   * Open AI. Prompt Engineering. https://platform.openai.com/docs/guides/prompt-engineering
+   * Llama. Prompting. https://www.llama.com/docs/how-to-guides/prompting/
+* Embeddings
+   * Open AI. Embeddings. https://platform.openai.com/docs/guides/embeddings
+* Structuring
+   * Yurtsev, E. (2023). Kor. https://eyurtsev.github.io/kor/index.html#
+* If you are comfortable with programming:
+   * Gil Guzmán, K. (2024). Structured outputs. https://cookbook.openai.com/examples/structured_outputs_intro
+* LLM applications with LangChain
+   * IBM Technology (2024). LangChain explained. https://www.youtube.com/watch?v=1bUy-1hGZpI
 
 Further reading:
 
-* Kassambara, A. (2018) "Linear regression assumptions and diagnostics in R: Essentials." http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
-   * A good very quick overview of basic R diagnostics for linear models
-
-* Gelman, A. and Hill, J. (2007) *Data Analysis using Regression and Multilevel/Hierarchical Models.* Cambridge University Press.
-   * The best general regression textbook, with detailed discussion of model diagnostics
-
+* Ngo, R. (2021). A short introduction to machine learning. https://www.alignmentforum.org/posts/qE73pqxAZmeACsAdF/a-short-introduction-to-machine-learning
+* 3Blue1Brown (2017). But what is a neural network? https://www.youtube.com/watch?v=aircAruvnKk
+* Codebasics (2021). What is self-supervised learning? https://www.youtube.com/watch?v=sJzuNAisXHA&feature=youtu.be
+* Yan, Z. (2024). Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge). eugeneyan.com. https://eugeneyan.com/writing/llm-evaluators/
+* Barrie, C., Palmer, A., & Spirling, A. (2024). Replication for Language Models Problems, Principles, and Best Practice for Political Science. URL: https://arthurspirling. org/documents/BarriePalmerSpirling TrustMeBro. pdf.
+* Zhou, Y., Muresanu, A. I., Han, Z., Paster, K., Pitis, S., Chan, H., & Ba, J. (2022). Large language models are human-level prompt engineers. arXiv preprint arXiv:2211.01910.
+* OpenAI resources. https://cookbook.openai.com/articles/related_resources
 
