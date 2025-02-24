@@ -2,7 +2,7 @@
 title: "Quantitative Data Management"
 subtitle: "CRMW Workshop 2"
 author: "Charles Lanfear"
-date: "25 Jan 2024<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
+date: "27 Feb 2025<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%d %b %Y'))`"
 output:
   xaringan::moon_reader:
     css: "../assets/cam-css.css"
@@ -28,7 +28,7 @@ knitr::opts_chunk$set(eval=TRUE, echo=TRUE, message=FALSE, warning=FALSE, dev = 
 A research question: 
 
 .text-center[
-*Controlling for **density**, how is **deprivation** related to **crime** in London?*
+*Adjusting for population **density**, how is **deprivation** related to **crime** in London?*
 ]
 
 <br>
