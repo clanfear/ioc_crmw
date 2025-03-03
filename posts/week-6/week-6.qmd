@@ -14,7 +14,7 @@ To get started:
 1. [Download this zipped project scaffold on to your computer](https://clanfear.github.io/ioc_crmw/_lectures/applied-regression-analysis/applied-regression_activity.zip)
 2. Unzip it where you keep your coursework
 3. Double-click the `applied-regression_activity.Rproj` to open the project
-4. Run the processing scripts in the project's `syntax/` folder to get the data download and assembled
+4. Run the processing scripts in the project's `code/` folder to get the data download and assembled
 
 Required reading:
 

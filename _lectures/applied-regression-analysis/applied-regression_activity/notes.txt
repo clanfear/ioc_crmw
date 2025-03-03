@@ -1,5 +1,0 @@
-Univariate and bivariate visualisation
-Basic OLS model
-Residual plots
-avplots
-Maybe toy at Poisson model
